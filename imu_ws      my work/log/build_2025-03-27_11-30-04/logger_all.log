@@ -1,0 +1,180 @@
+[0.048s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.048s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=16, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x74bf8e137820>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x74bf8e278cd0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x74bf8e278cd0>>)
+[0.129s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.129s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.129s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.129s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.129s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.129s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.129s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/nuc11/imu_ws'
+[0.129s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.130s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.130s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.130s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.130s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.130s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.130s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.130s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.130s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.136s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.136s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.136s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.136s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.136s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.136s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.136s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.136s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.136s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.136s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.136s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.136s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.136s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.136s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.136s] Level 1:colcon.colcon_core.package_identification:_identify(witmotion-uart-qt) by extensions ['ignore', 'ignore_ament_install']
+[0.136s] Level 1:colcon.colcon_core.package_identification:_identify(witmotion-uart-qt) by extension 'ignore'
+[0.136s] Level 1:colcon.colcon_core.package_identification:_identify(witmotion-uart-qt) by extension 'ignore_ament_install'
+[0.136s] Level 1:colcon.colcon_core.package_identification:_identify(witmotion-uart-qt) by extensions ['colcon_pkg']
+[0.136s] Level 1:colcon.colcon_core.package_identification:_identify(witmotion-uart-qt) by extension 'colcon_pkg'
+[0.136s] Level 1:colcon.colcon_core.package_identification:_identify(witmotion-uart-qt) by extensions ['colcon_meta']
+[0.136s] Level 1:colcon.colcon_core.package_identification:_identify(witmotion-uart-qt) by extension 'colcon_meta'
+[0.136s] Level 1:colcon.colcon_core.package_identification:_identify(witmotion-uart-qt) by extensions ['ros']
+[0.136s] Level 1:colcon.colcon_core.package_identification:_identify(witmotion-uart-qt) by extension 'ros'
+[0.136s] Level 1:colcon.colcon_core.package_identification:_identify(witmotion-uart-qt) by extensions ['cmake', 'python']
+[0.136s] Level 1:colcon.colcon_core.package_identification:_identify(witmotion-uart-qt) by extension 'cmake'
+[0.148s] Level 1:colcon.colcon_core.package_identification:_identify(witmotion-uart-qt) by extension 'python'
+[0.148s] DEBUG:colcon.colcon_core.package_identification:Package 'witmotion-uart-qt' with type 'cmake' and name 'witmotion-uart-qt'
+[0.148s] Level 1:colcon.colcon_core.package_identification:_identify(witmotion_ros) by extensions ['ignore', 'ignore_ament_install']
+[0.148s] Level 1:colcon.colcon_core.package_identification:_identify(witmotion_ros) by extension 'ignore'
+[0.148s] Level 1:colcon.colcon_core.package_identification:_identify(witmotion_ros) by extension 'ignore_ament_install'
+[0.148s] Level 1:colcon.colcon_core.package_identification:_identify(witmotion_ros) by extensions ['colcon_pkg']
+[0.148s] Level 1:colcon.colcon_core.package_identification:_identify(witmotion_ros) by extension 'colcon_pkg'
+[0.148s] Level 1:colcon.colcon_core.package_identification:_identify(witmotion_ros) by extensions ['colcon_meta']
+[0.148s] Level 1:colcon.colcon_core.package_identification:_identify(witmotion_ros) by extension 'colcon_meta'
+[0.148s] Level 1:colcon.colcon_core.package_identification:_identify(witmotion_ros) by extensions ['ros']
+[0.148s] Level 1:colcon.colcon_core.package_identification:_identify(witmotion_ros) by extension 'ros'
+[0.150s] DEBUG:colcon.colcon_core.package_identification:Package 'witmotion_ros' with type 'ros.ament_cmake' and name 'witmotion_ros'
+[0.150s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.150s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.150s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.150s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.150s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.165s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.165s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.166s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 420 installed packages in /opt/ros/humble
+[0.167s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.192s] Level 5:colcon.colcon_core.verb:set package 'witmotion-uart-qt' build argument 'cmake_args' from command line to 'None'
+[0.192s] Level 5:colcon.colcon_core.verb:set package 'witmotion-uart-qt' build argument 'cmake_target' from command line to 'None'
+[0.192s] Level 5:colcon.colcon_core.verb:set package 'witmotion-uart-qt' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.192s] Level 5:colcon.colcon_core.verb:set package 'witmotion-uart-qt' build argument 'cmake_clean_cache' from command line to 'False'
+[0.192s] Level 5:colcon.colcon_core.verb:set package 'witmotion-uart-qt' build argument 'cmake_clean_first' from command line to 'False'
+[0.192s] Level 5:colcon.colcon_core.verb:set package 'witmotion-uart-qt' build argument 'cmake_force_configure' from command line to 'False'
+[0.192s] Level 5:colcon.colcon_core.verb:set package 'witmotion-uart-qt' build argument 'ament_cmake_args' from command line to 'None'
+[0.192s] Level 5:colcon.colcon_core.verb:set package 'witmotion-uart-qt' build argument 'catkin_cmake_args' from command line to 'None'
+[0.192s] Level 5:colcon.colcon_core.verb:set package 'witmotion-uart-qt' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.192s] DEBUG:colcon.colcon_core.verb:Building package 'witmotion-uart-qt' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/nuc11/imu_ws/build/witmotion-uart-qt', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/nuc11/imu_ws/install/witmotion-uart-qt', 'merge_install': False, 'path': '/home/nuc11/imu_ws/witmotion-uart-qt', 'symlink_install': False, 'test_result_base': None}
+[0.192s] Level 5:colcon.colcon_core.verb:set package 'witmotion_ros' build argument 'cmake_args' from command line to 'None'
+[0.192s] Level 5:colcon.colcon_core.verb:set package 'witmotion_ros' build argument 'cmake_target' from command line to 'None'
+[0.193s] Level 5:colcon.colcon_core.verb:set package 'witmotion_ros' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.193s] Level 5:colcon.colcon_core.verb:set package 'witmotion_ros' build argument 'cmake_clean_cache' from command line to 'False'
+[0.193s] Level 5:colcon.colcon_core.verb:set package 'witmotion_ros' build argument 'cmake_clean_first' from command line to 'False'
+[0.193s] Level 5:colcon.colcon_core.verb:set package 'witmotion_ros' build argument 'cmake_force_configure' from command line to 'False'
+[0.193s] Level 5:colcon.colcon_core.verb:set package 'witmotion_ros' build argument 'ament_cmake_args' from command line to 'None'
+[0.193s] Level 5:colcon.colcon_core.verb:set package 'witmotion_ros' build argument 'catkin_cmake_args' from command line to 'None'
+[0.193s] Level 5:colcon.colcon_core.verb:set package 'witmotion_ros' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.193s] DEBUG:colcon.colcon_core.verb:Building package 'witmotion_ros' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/nuc11/imu_ws/build/witmotion_ros', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/nuc11/imu_ws/install/witmotion_ros', 'merge_install': False, 'path': '/home/nuc11/imu_ws/witmotion_ros', 'symlink_install': False, 'test_result_base': None}
+[0.193s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.193s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.194s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/nuc11/imu_ws/witmotion-uart-qt'
+[0.195s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.195s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.195s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.197s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/nuc11/imu_ws/witmotion_ros' with build type 'ament_cmake'
+[0.197s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/nuc11/imu_ws/witmotion_ros'
+[0.197s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.197s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.200s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/nuc11/imu_ws/build/witmotion-uart-qt': /usr/bin/cmake /home/nuc11/imu_ws/witmotion-uart-qt -DCMAKE_INSTALL_PREFIX=/home/nuc11/imu_ws/install/witmotion-uart-qt
+[0.203s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/nuc11/imu_ws/build/witmotion_ros': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/nuc11/imu_ws/witmotion_ros -DCMAKE_INSTALL_PREFIX=/home/nuc11/imu_ws/install/witmotion_ros
+[0.504s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/nuc11/imu_ws/build/witmotion-uart-qt' returned '0': /usr/bin/cmake /home/nuc11/imu_ws/witmotion-uart-qt -DCMAKE_INSTALL_PREFIX=/home/nuc11/imu_ws/install/witmotion-uart-qt
+[0.505s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/nuc11/imu_ws/build/witmotion-uart-qt': /usr/bin/cmake --build /home/nuc11/imu_ws/build/witmotion-uart-qt -- -j16 -l16
+[2.308s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/nuc11/imu_ws/build/witmotion_ros' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/nuc11/imu_ws/witmotion_ros -DCMAKE_INSTALL_PREFIX=/home/nuc11/imu_ws/install/witmotion_ros
+[2.313s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/nuc11/imu_ws/build/witmotion_ros': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/nuc11/imu_ws/build/witmotion_ros -- -j16 -l16
+[11.379s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/nuc11/imu_ws/build/witmotion-uart-qt' returned '0': /usr/bin/cmake --build /home/nuc11/imu_ws/build/witmotion-uart-qt -- -j16 -l16
+[11.380s] WARNING:colcon.colcon_cmake.task.cmake.build:Could not run installation step for package 'witmotion-uart-qt' because it has no 'install' target
+[11.380s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(witmotion-uart-qt)
+[11.383s] Level 1:colcon.colcon_core.environment:checking '/home/nuc11/imu_ws/install/witmotion-uart-qt' for CMake module files
+[11.383s] Level 1:colcon.colcon_core.environment:checking '/home/nuc11/imu_ws/install/witmotion-uart-qt' for CMake config files
+[11.384s] Level 1:colcon.colcon_core.environment:checking '/home/nuc11/imu_ws/install/witmotion-uart-qt/bin'
+[11.384s] Level 1:colcon.colcon_core.environment:checking '/home/nuc11/imu_ws/install/witmotion-uart-qt/lib/pkgconfig/witmotion-uart-qt.pc'
+[11.384s] Level 1:colcon.colcon_core.environment:checking '/home/nuc11/imu_ws/install/witmotion-uart-qt/lib/python3.10/site-packages'
+[11.384s] Level 1:colcon.colcon_core.environment:checking '/home/nuc11/imu_ws/install/witmotion-uart-qt/bin'
+[11.385s] INFO:colcon.colcon_core.shell:Creating package script '/home/nuc11/imu_ws/install/witmotion-uart-qt/share/witmotion-uart-qt/package.ps1'
+[11.386s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/nuc11/imu_ws/install/witmotion-uart-qt/share/witmotion-uart-qt/package.dsv'
+[11.386s] INFO:colcon.colcon_core.shell:Creating package script '/home/nuc11/imu_ws/install/witmotion-uart-qt/share/witmotion-uart-qt/package.sh'
+[11.387s] INFO:colcon.colcon_core.shell:Creating package script '/home/nuc11/imu_ws/install/witmotion-uart-qt/share/witmotion-uart-qt/package.bash'
+[11.388s] INFO:colcon.colcon_core.shell:Creating package script '/home/nuc11/imu_ws/install/witmotion-uart-qt/share/witmotion-uart-qt/package.zsh'
+[11.389s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/nuc11/imu_ws/install/witmotion-uart-qt/share/colcon-core/packages/witmotion-uart-qt)
+[19.121s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/nuc11/imu_ws/build/witmotion_ros' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/nuc11/imu_ws/build/witmotion_ros -- -j16 -l16
+[19.127s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/nuc11/imu_ws/build/witmotion_ros': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/nuc11/imu_ws/build/witmotion_ros
+[19.140s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(witmotion_ros)
+[19.140s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/nuc11/imu_ws/build/witmotion_ros' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/nuc11/imu_ws/build/witmotion_ros
+[19.141s] Level 1:colcon.colcon_core.environment:checking '/home/nuc11/imu_ws/install/witmotion_ros' for CMake module files
+[19.141s] Level 1:colcon.colcon_core.environment:checking '/home/nuc11/imu_ws/install/witmotion_ros' for CMake config files
+[19.141s] Level 1:colcon.colcon_core.shell:create_environment_hook('witmotion_ros', 'cmake_prefix_path')
+[19.142s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nuc11/imu_ws/install/witmotion_ros/share/witmotion_ros/hook/cmake_prefix_path.ps1'
+[19.142s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/nuc11/imu_ws/install/witmotion_ros/share/witmotion_ros/hook/cmake_prefix_path.dsv'
+[19.142s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nuc11/imu_ws/install/witmotion_ros/share/witmotion_ros/hook/cmake_prefix_path.sh'
+[19.143s] Level 1:colcon.colcon_core.environment:checking '/home/nuc11/imu_ws/install/witmotion_ros/lib'
+[19.143s] Level 1:colcon.colcon_core.shell:create_environment_hook('witmotion_ros', 'ld_library_path_lib')
+[19.143s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nuc11/imu_ws/install/witmotion_ros/share/witmotion_ros/hook/ld_library_path_lib.ps1'
+[19.144s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/nuc11/imu_ws/install/witmotion_ros/share/witmotion_ros/hook/ld_library_path_lib.dsv'
+[19.144s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nuc11/imu_ws/install/witmotion_ros/share/witmotion_ros/hook/ld_library_path_lib.sh'
+[19.144s] Level 1:colcon.colcon_core.environment:checking '/home/nuc11/imu_ws/install/witmotion_ros/bin'
+[19.144s] Level 1:colcon.colcon_core.environment:checking '/home/nuc11/imu_ws/install/witmotion_ros/lib/pkgconfig/witmotion_ros.pc'
+[19.145s] Level 1:colcon.colcon_core.environment:checking '/home/nuc11/imu_ws/install/witmotion_ros/lib/python3.10/site-packages'
+[19.145s] Level 1:colcon.colcon_core.environment:checking '/home/nuc11/imu_ws/install/witmotion_ros/bin'
+[19.145s] INFO:colcon.colcon_core.shell:Creating package script '/home/nuc11/imu_ws/install/witmotion_ros/share/witmotion_ros/package.ps1'
+[19.145s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/nuc11/imu_ws/install/witmotion_ros/share/witmotion_ros/package.dsv'
+[19.146s] INFO:colcon.colcon_core.shell:Creating package script '/home/nuc11/imu_ws/install/witmotion_ros/share/witmotion_ros/package.sh'
+[19.146s] INFO:colcon.colcon_core.shell:Creating package script '/home/nuc11/imu_ws/install/witmotion_ros/share/witmotion_ros/package.bash'
+[19.146s] INFO:colcon.colcon_core.shell:Creating package script '/home/nuc11/imu_ws/install/witmotion_ros/share/witmotion_ros/package.zsh'
+[19.146s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/nuc11/imu_ws/install/witmotion_ros/share/colcon-core/packages/witmotion_ros)
+[19.147s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(witmotion_ros)
+[19.147s] Level 1:colcon.colcon_core.environment:checking '/home/nuc11/imu_ws/install/witmotion_ros' for CMake module files
+[19.147s] Level 1:colcon.colcon_core.environment:checking '/home/nuc11/imu_ws/install/witmotion_ros' for CMake config files
+[19.147s] Level 1:colcon.colcon_core.shell:create_environment_hook('witmotion_ros', 'cmake_prefix_path')
+[19.147s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nuc11/imu_ws/install/witmotion_ros/share/witmotion_ros/hook/cmake_prefix_path.ps1'
+[19.147s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/nuc11/imu_ws/install/witmotion_ros/share/witmotion_ros/hook/cmake_prefix_path.dsv'
+[19.148s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nuc11/imu_ws/install/witmotion_ros/share/witmotion_ros/hook/cmake_prefix_path.sh'
+[19.148s] Level 1:colcon.colcon_core.environment:checking '/home/nuc11/imu_ws/install/witmotion_ros/lib'
+[19.148s] Level 1:colcon.colcon_core.shell:create_environment_hook('witmotion_ros', 'ld_library_path_lib')
+[19.148s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nuc11/imu_ws/install/witmotion_ros/share/witmotion_ros/hook/ld_library_path_lib.ps1'
+[19.148s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/nuc11/imu_ws/install/witmotion_ros/share/witmotion_ros/hook/ld_library_path_lib.dsv'
+[19.148s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nuc11/imu_ws/install/witmotion_ros/share/witmotion_ros/hook/ld_library_path_lib.sh'
+[19.148s] Level 1:colcon.colcon_core.environment:checking '/home/nuc11/imu_ws/install/witmotion_ros/bin'
+[19.148s] Level 1:colcon.colcon_core.environment:checking '/home/nuc11/imu_ws/install/witmotion_ros/lib/pkgconfig/witmotion_ros.pc'
+[19.149s] Level 1:colcon.colcon_core.environment:checking '/home/nuc11/imu_ws/install/witmotion_ros/lib/python3.10/site-packages'
+[19.149s] Level 1:colcon.colcon_core.environment:checking '/home/nuc11/imu_ws/install/witmotion_ros/bin'
+[19.149s] INFO:colcon.colcon_core.shell:Creating package script '/home/nuc11/imu_ws/install/witmotion_ros/share/witmotion_ros/package.ps1'
+[19.149s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/nuc11/imu_ws/install/witmotion_ros/share/witmotion_ros/package.dsv'
+[19.149s] INFO:colcon.colcon_core.shell:Creating package script '/home/nuc11/imu_ws/install/witmotion_ros/share/witmotion_ros/package.sh'
+[19.149s] INFO:colcon.colcon_core.shell:Creating package script '/home/nuc11/imu_ws/install/witmotion_ros/share/witmotion_ros/package.bash'
+[19.150s] INFO:colcon.colcon_core.shell:Creating package script '/home/nuc11/imu_ws/install/witmotion_ros/share/witmotion_ros/package.zsh'
+[19.150s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/nuc11/imu_ws/install/witmotion_ros/share/colcon-core/packages/witmotion_ros)
+[19.150s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[19.150s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[19.150s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[19.150s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[19.153s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[19.153s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[19.153s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[19.160s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[19.161s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/nuc11/imu_ws/install/local_setup.ps1'
+[19.161s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/nuc11/imu_ws/install/_local_setup_util_ps1.py'
+[19.162s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/nuc11/imu_ws/install/setup.ps1'
+[19.162s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/nuc11/imu_ws/install/local_setup.sh'
+[19.162s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/nuc11/imu_ws/install/_local_setup_util_sh.py'
+[19.163s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/nuc11/imu_ws/install/setup.sh'
+[19.163s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/nuc11/imu_ws/install/local_setup.bash'
+[19.163s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/nuc11/imu_ws/install/setup.bash'
+[19.164s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/nuc11/imu_ws/install/local_setup.zsh'
+[19.164s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/nuc11/imu_ws/install/setup.zsh'

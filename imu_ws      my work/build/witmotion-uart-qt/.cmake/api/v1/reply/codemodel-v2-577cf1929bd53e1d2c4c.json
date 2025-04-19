@@ -1,0 +1,231 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.1"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18,
+						19
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "witmotion-uart-qt",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18,
+						19
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "message-enumerator::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-message-enumerator-f8eaaeffb1328c0bf49d.json",
+					"name" : "message-enumerator",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "message-enumerator_autogen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-message-enumerator_autogen-e51cc0eb0771837de3e3.json",
+					"name" : "message-enumerator_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "witmotion-jy901::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-witmotion-jy901-8cd4ff99fe2a2f78214a.json",
+					"name" : "witmotion-jy901",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "witmotion-jy901_autogen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-witmotion-jy901_autogen-72858e04448b2132eb89.json",
+					"name" : "witmotion-jy901_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "witmotion-uart::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-witmotion-uart-c7c76af385be7be692f9.json",
+					"name" : "witmotion-uart",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "witmotion-uart_autogen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-witmotion-uart_autogen-2dc177628829f7a66b0b.json",
+					"name" : "witmotion-uart_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "witmotion-wt31n::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-witmotion-wt31n-63ae61ec99d448bfeb55.json",
+					"name" : "witmotion-wt31n",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "witmotion-wt31n_autogen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-witmotion-wt31n_autogen-5c6c2536b9e1a221c437.json",
+					"name" : "witmotion-wt31n_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "witmotion-wt901::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-witmotion-wt901-2033d3fd67eb74abde57.json",
+					"name" : "witmotion-wt901",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "witmotion-wt901_autogen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-witmotion-wt901_autogen-7480b8450f8831b690aa.json",
+					"name" : "witmotion-wt901_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "witmotionctl-jy901::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-witmotionctl-jy901-effeaf0047b4cb78d61d.json",
+					"name" : "witmotionctl-jy901",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "witmotionctl-jy901_autogen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-witmotionctl-jy901_autogen-d4876d13c380345f6f88.json",
+					"name" : "witmotionctl-jy901_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "witmotionctl-wt31n::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-witmotionctl-wt31n-83ee6885dae182c654f4.json",
+					"name" : "witmotionctl-wt31n",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "witmotionctl-wt31n_autogen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-witmotionctl-wt31n_autogen-1da58526aba00242017d.json",
+					"name" : "witmotionctl-wt31n_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "witmotionctl-wt901::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-witmotionctl-wt901-1882f36692eacf97183e.json",
+					"name" : "witmotionctl-wt901",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "witmotionctl-wt901_autogen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-witmotionctl-wt901_autogen-c28d36595ff58f25910e.json",
+					"name" : "witmotionctl-wt901_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "wt31n-calibration::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-wt31n-calibration-c6fc2251cdfe0d5a9987.json",
+					"name" : "wt31n-calibration",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "wt31n-calibration_autogen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-wt31n-calibration_autogen-ba6c7b2de5a37721533a.json",
+					"name" : "wt31n-calibration_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "wt31n-standalone-decoder::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-wt31n-standalone-decoder-40d1694ecf782f2bb2e2.json",
+					"name" : "wt31n-standalone-decoder",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "wt31n-standalone-decoder_autogen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-wt31n-standalone-decoder_autogen-29f4bc8ba53738ec7a67.json",
+					"name" : "wt31n-standalone-decoder_autogen",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/nuc11/imu_ws/build/witmotion-uart-qt",
+		"source" : "/home/nuc11/imu_ws/witmotion-uart-qt"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

@@ -1,0 +1,310 @@
+[0.005s] Invoking command in '/home/nuc11/imu_ws/build/witmotion_ros': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/nuc11/imu_ws/witmotion_ros -DCMAKE_INSTALL_PREFIX=/home/nuc11/imu_ws/install/witmotion_ros
+[0.017s] -- Building version 1.2.28~dev_5c2e86d
+[0.024s] -- Could NOT find Doxygen (missing: DOXYGEN_EXECUTABLE) 
+[0.024s] -- Unable to found Doxygen. The documentation for witmotion-uart-qt will not be built
+[0.025s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.121s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.171s] -- Found tf2: 0.25.12 (/opt/ros/humble/share/tf2/cmake)
+[0.194s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.197s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.201s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.208s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.216s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.237s] -- Found tf2_geometry_msgs: 0.25.12 (/opt/ros/humble/share/tf2_geometry_msgs/cmake)
+[0.244s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[0.244s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[0.244s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[0.277s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.278s] -- Found rmw_cyclonedds_cpp: 1.3.4 (/opt/ros/humble/share/rmw_cyclonedds_cpp/cmake)
+[0.289s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[0.293s] -- Looking for pthread.h
+[0.335s] -- Looking for pthread.h - found
+[0.336s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.388s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.389s] -- Found Threads: TRUE  
+[0.452s] -- Found std_srvs: 4.2.4 (/opt/ros/humble/share/std_srvs/cmake)
+[0.458s] -- Found sensor_msgs: 4.2.4 (/opt/ros/humble/share/sensor_msgs/cmake)
+[0.468s] -- Found nav_msgs: 4.2.4 (/opt/ros/humble/share/nav_msgs/cmake)
+[0.480s] -- Found rclcpp_lifecycle: 16.0.11 (/opt/ros/humble/share/rclcpp_lifecycle/cmake)
+[0.491s] [33mCMake Warning at CMakeLists.txt:51 (message):
+[0.491s]   tf2_geometry_msgs include dir:
+[0.491s]   /opt/ros/humble/include/tf2_geometry_msgs;/opt/ros/humble/include/geometry_msgs;/usr/include/eigen3;/opt/ros/humble/include/tf2;/opt/ros/humble/include/tf2_ros
+[0.491s] 
+[0.491s] [0m
+[0.493s] -- Found ament_cmake_auto: 1.3.11 (/opt/ros/humble/share/ament_cmake_auto/cmake)
+[1.615s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.636s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.636s] -- Configured cppcheck include dirs: /home/nuc11/imu_ws/witmotion_ros/include;/home/nuc11/imu_ws/witmotion_ros/witmotion-uart-qt/include
+[1.636s] -- Configured cppcheck exclude dirs and/or files: 
+[1.637s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.639s] -- Added test 'lint_cmake' to check CMake code style
+[1.640s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[1.645s] -- Added test 'uncrustify' to check C / C++ code style
+[1.646s] -- Configured uncrustify additional arguments: 
+[1.647s] -- Added test 'xmllint' to check XML markup files
+[1.648s] -- Configuring done
+[2.060s] -- Generating done
+[2.092s] -- Build files have been written to: /home/nuc11/imu_ws/build/witmotion_ros
+[2.111s] Invoked command in '/home/nuc11/imu_ws/build/witmotion_ros' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/nuc11/imu_ws/witmotion_ros -DCMAKE_INSTALL_PREFIX=/home/nuc11/imu_ws/install/witmotion_ros
+[2.116s] Invoking command in '/home/nuc11/imu_ws/build/witmotion_ros': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/nuc11/imu_ws/build/witmotion_ros -- -j16 -l16
+[2.365s] [  1%] [34m[1mAutomatic MOC for target witmotion-uart[0m
+[2.378s] [  2%] [34m[1mAutomatic MOC for target wt31n-calibration[0m
+[2.380s] [  4%] [34m[1mAutomatic MOC for target wt31n-standalone-decoder[0m
+[2.571s] [  4%] Built target witmotion-uart_autogen
+[2.580s] [  4%] Built target wt31n-calibration_autogen
+[2.633s] [  7%] [34m[1mGenerating include/witmotion/moc_types.cpp[0m
+[2.634s] [  7%] [34m[1mGenerating include/witmotion/moc_serial.cpp[0m
+[2.705s] [ 10%] [32mBuilding CXX object witmotion-uart-qt/CMakeFiles/wt31n-calibration.dir/wt31n-calibration_autogen/mocs_compilation.cpp.o[0m
+[2.707s] [ 10%] [32mBuilding CXX object witmotion-uart-qt/CMakeFiles/wt31n-calibration.dir/examples/wt31n/calibration-standalone.cpp.o[0m
+[2.774s] [ 11%] [32mBuilding CXX object witmotion-uart-qt/CMakeFiles/witmotion-uart.dir/include/witmotion/moc_types.cpp.o[0m
+[2.777s] [ 13%] [32mBuilding CXX object witmotion-uart-qt/CMakeFiles/witmotion-uart.dir/include/witmotion/moc_serial.cpp.o[0m
+[2.778s] [ 16%] [32mBuilding CXX object witmotion-uart-qt/CMakeFiles/witmotion-uart.dir/src/util.cpp.o[0m
+[2.778s] [ 16%] [32mBuilding CXX object witmotion-uart-qt/CMakeFiles/witmotion-uart.dir/witmotion-uart_autogen/mocs_compilation.cpp.o[0m
+[2.784s] [ 17%] [32mBuilding CXX object witmotion-uart-qt/CMakeFiles/witmotion-uart.dir/src/serial.cpp.o[0m
+[3.067s] [ 17%] Built target wt31n-standalone-decoder_autogen
+[3.089s] [ 19%] [32mBuilding CXX object witmotion-uart-qt/CMakeFiles/wt31n-standalone-decoder.dir/wt31n-standalone-decoder_autogen/mocs_compilation.cpp.o[0m
+[3.093s] [ 20%] [32mBuilding CXX object witmotion-uart-qt/CMakeFiles/wt31n-standalone-decoder.dir/examples/wt31n/witmotion-wt31n-uart-test.cpp.o[0m
+[4.351s] In file included from [01m[K/home/nuc11/imu_ws/build/witmotion_ros/witmotion-uart-qt/include/witmotion/../../../../../witmotion_ros/witmotion-uart-qt/include/witmotion/types.h:18[m[K,
+[4.352s]                  from [01m[K/home/nuc11/imu_ws/build/witmotion_ros/witmotion-uart-qt/include/witmotion/moc_types.cpp:10[m[K:
+[4.352s] [01m[K/home/nuc11/imu_ws/witmotion_ros/witmotion-uart-qt/include/witmotion/version.h:4:26:[m[K [01;35m[Kwarning: [m[K‘[01m[Kconst string witmotion::library_version()[m[K’ defined but not used [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-function-Wunused-function]8;;[m[K]
+[4.352s]     4 | static const std::string [01;35m[Klibrary_version[m[K()
+[4.352s]       |                          [01;35m[K^~~~~~~~~~~~~~~[m[K
+[4.355s] In file included from [01m[K/home/nuc11/imu_ws/witmotion_ros/witmotion-uart-qt/include/witmotion/types.h:18[m[K,
+[4.355s]                  from [01m[K/home/nuc11/imu_ws/build/witmotion_ros/witmotion-uart-qt/include/witmotion/../../../../../witmotion_ros/witmotion-uart-qt/include/witmotion/serial.h:4[m[K,
+[4.355s]                  from [01m[K/home/nuc11/imu_ws/build/witmotion_ros/witmotion-uart-qt/include/witmotion/moc_serial.cpp:10[m[K:
+[4.355s] [01m[K/home/nuc11/imu_ws/witmotion_ros/witmotion-uart-qt/include/witmotion/version.h:4:26:[m[K [01;35m[Kwarning: [m[K‘[01m[Kconst string witmotion::library_version()[m[K’ defined but not used [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-function-Wunused-function]8;;[m[K]
+[4.356s]     4 | static const std::string [01;35m[Klibrary_version[m[K()
+[4.356s]       |                          [01;35m[K^~~~~~~~~~~~~~~[m[K
+[4.511s] In file included from [01m[K/home/nuc11/imu_ws/witmotion_ros/witmotion-uart-qt/include/witmotion/types.h:18[m[K,
+[4.511s]                  from [01m[K/home/nuc11/imu_ws/witmotion_ros/witmotion-uart-qt/include/witmotion/util.h:9[m[K,
+[4.511s]                  from [01m[K/home/nuc11/imu_ws/witmotion_ros/witmotion-uart-qt/src/util.cpp:1[m[K:
+[4.511s] [01m[K/home/nuc11/imu_ws/witmotion_ros/witmotion-uart-qt/include/witmotion/version.h:4:26:[m[K [01;35m[Kwarning: [m[K‘[01m[Kconst string witmotion::library_version()[m[K’ defined but not used [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-function-Wunused-function]8;;[m[K]
+[4.511s]     4 | static const std::string [01;35m[Klibrary_version[m[K()
+[4.511s]       |                          [01;35m[K^~~~~~~~~~~~~~~[m[K
+[4.999s] [ 22%] [32m[1mLinking CXX executable wt31n-calibration[0m
+[4.999s] [01m[K/home/nuc11/imu_ws/witmotion_ros/witmotion-uart-qt/examples/wt31n/witmotion-wt31n-uart-test.cpp:[m[K In function ‘[01m[Kvoid handle_shutdown(int)[m[K’:
+[4.999s] [01m[K/home/nuc11/imu_ws/witmotion_ros/witmotion-uart-qt/examples/wt31n/witmotion-wt31n-uart-test.cpp:253:26:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ks[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[5.000s]   253 | void handle_shutdown([01;35m[Kint s[m[K)
+[5.000s]       |                      [01;35m[K~~~~^[m[K
+[5.142s] [ 22%] Built target wt31n-calibration
+[5.167s] In file included from [01m[K/home/nuc11/imu_ws/witmotion_ros/witmotion-uart-qt/include/witmotion/types.h:18[m[K,
+[5.167s]                  from [01m[K/home/nuc11/imu_ws/witmotion_ros/witmotion-uart-qt/include/witmotion/serial.h:4[m[K,
+[5.167s]                  from [01m[K/home/nuc11/imu_ws/witmotion_ros/witmotion-uart-qt/src/serial.cpp:1[m[K:
+[5.167s] [01m[K/home/nuc11/imu_ws/witmotion_ros/witmotion-uart-qt/include/witmotion/version.h:4:26:[m[K [01;35m[Kwarning: [m[K‘[01m[Kconst string witmotion::library_version()[m[K’ defined but not used [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-function-Wunused-function]8;;[m[K]
+[5.167s]     4 | static const std::string [01;35m[Klibrary_version[m[K()
+[5.168s]       |                          [01;35m[K^~~~~~~~~~~~~~~[m[K
+[5.285s] [ 23%] [32m[1mLinking CXX executable wt31n-standalone-decoder[0m
+[5.364s] [ 25%] [32m[1mLinking CXX shared library libwitmotion-uart.so[0m
+[5.432s] [ 25%] Built target wt31n-standalone-decoder
+[5.494s] [ 25%] Built target witmotion-uart
+[5.510s] [ 26%] [34m[1mAutomatic MOC for target message-enumerator[0m
+[5.516s] [ 28%] [34m[1mAutomatic MOC for target witmotion-wt31n[0m
+[5.516s] [ 31%] [34m[1mAutomatic MOC for target witmotion_ros[0m
+[5.516s] [ 31%] [34m[1mAutomatic MOC for target witmotion-wt901[0m
+[5.541s] [ 31%] Built target message-enumerator_autogen
+[5.546s] [ 31%] Built target witmotion_ros_autogen
+[5.547s] [ 31%] Built target witmotion-wt901_autogen
+[5.548s] [ 32%] [34m[1mGenerating include/witmotion/moc_message-enumerator.cpp[0m
+[5.550s] [ 32%] Built target witmotion-wt31n_autogen
+[5.555s] [ 34%] [34m[1mGenerating include/moc_witmotion_ros.cpp[0m
+[5.555s] [ 35%] [34m[1mGenerating include/witmotion/moc_wt901-uart.cpp[0m
+[5.560s] [ 37%] [34m[1mGenerating include/witmotion/moc_wt31n-uart.cpp[0m
+[5.575s] [ 40%] [32mBuilding CXX object witmotion-uart-qt/CMakeFiles/witmotion-wt901.dir/witmotion-wt901_autogen/mocs_compilation.cpp.o[0m
+[5.575s] [ 40%] [32mBuilding CXX object witmotion-uart-qt/CMakeFiles/message-enumerator.dir/message-enumerator_autogen/mocs_compilation.cpp.o[0m
+[5.575s] [ 41%] [32mBuilding CXX object witmotion-uart-qt/CMakeFiles/message-enumerator.dir/include/witmotion/moc_message-enumerator.cpp.o[0m
+[5.576s] [ 43%] [32mBuilding CXX object witmotion-uart-qt/CMakeFiles/message-enumerator.dir/src/message-enumerator.cpp.o[0m
+[5.576s] [ 44%] [32mBuilding CXX object witmotion-uart-qt/CMakeFiles/witmotion-wt901.dir/src/wt901-uart.cpp.o[0m
+[5.576s] [ 47%] [32mBuilding CXX object witmotion-uart-qt/CMakeFiles/witmotion-wt901.dir/include/witmotion/moc_wt901-uart.cpp.o[0m
+[5.576s] [ 47%] [32mBuilding CXX object CMakeFiles/witmotion_ros.dir/witmotion_ros_autogen/mocs_compilation.cpp.o[0m
+[5.576s] [ 50%] [32mBuilding CXX object CMakeFiles/witmotion_ros.dir/include/moc_witmotion_ros.cpp.o[0m
+[5.576s] [ 50%] [32mBuilding CXX object CMakeFiles/witmotion_ros.dir/src/witmotion_ros.cpp.o[0m
+[5.588s] [ 52%] [32mBuilding CXX object witmotion-uart-qt/CMakeFiles/witmotion-wt31n.dir/include/witmotion/moc_wt31n-uart.cpp.o[0m
+[5.588s] [ 53%] [32mBuilding CXX object witmotion-uart-qt/CMakeFiles/witmotion-wt31n.dir/witmotion-wt31n_autogen/mocs_compilation.cpp.o[0m
+[5.588s] [ 55%] [32mBuilding CXX object witmotion-uart-qt/CMakeFiles/witmotion-wt31n.dir/src/wt31n-uart.cpp.o[0m
+[7.063s] [01m[K/home/nuc11/imu_ws/witmotion_ros/witmotion-uart-qt/src/message-enumerator.cpp:[m[K In function ‘[01m[Kvoid handle_shutdown(int)[m[K’:
+[7.063s] [01m[K/home/nuc11/imu_ws/witmotion_ros/witmotion-uart-qt/src/message-enumerator.cpp:121:26:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ks[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[7.063s]   121 | void handle_shutdown([01;35m[Kint s[m[K)
+[7.063s]       |                      [01;35m[K~~~~^[m[K
+[7.322s] In file included from [01m[K/home/nuc11/imu_ws/witmotion_ros/witmotion-uart-qt/include/witmotion/types.h:18[m[K,
+[7.322s]                  from [01m[K/home/nuc11/imu_ws/witmotion_ros/witmotion-uart-qt/include/witmotion/serial.h:4[m[K,
+[7.322s]                  from [01m[K/home/nuc11/imu_ws/witmotion_ros/witmotion-uart-qt/include/witmotion/message-enumerator.h:17[m[K,
+[7.322s]                  from [01m[K/home/nuc11/imu_ws/witmotion_ros/witmotion-uart-qt/src/message-enumerator.cpp:1[m[K:
+[7.322s] [01m[K/home/nuc11/imu_ws/witmotion_ros/witmotion-uart-qt/include/witmotion/version.h:[m[K At global scope:
+[7.323s] [01m[K/home/nuc11/imu_ws/witmotion_ros/witmotion-uart-qt/include/witmotion/version.h:4:26:[m[K [01;35m[Kwarning: [m[K‘[01m[Kconst string witmotion::library_version()[m[K’ defined but not used [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-function-Wunused-function]8;;[m[K]
+[7.323s]     4 | static const std::string [01;35m[Klibrary_version[m[K()
+[7.323s]       |                          [01;35m[K^~~~~~~~~~~~~~~[m[K
+[7.492s] In file included from [01m[K/home/nuc11/imu_ws/witmotion_ros/witmotion-uart-qt/include/witmotion/types.h:18[m[K,
+[7.492s]                  from [01m[K/home/nuc11/imu_ws/build/witmotion_ros/witmotion-uart-qt/include/witmotion/../../../../../witmotion_ros/witmotion-uart-qt/include/witmotion/wt31n-uart.h:12[m[K,
+[7.492s]                  from [01m[K/home/nuc11/imu_ws/build/witmotion_ros/witmotion-uart-qt/include/witmotion/moc_wt31n-uart.cpp:10[m[K:
+[7.492s] [01m[K/home/nuc11/imu_ws/witmotion_ros/witmotion-uart-qt/include/witmotion/version.h:4:26:[m[K [01;35m[Kwarning: [m[K‘[01m[Kconst string witmotion::library_version()[m[K’ defined but not used [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-function-Wunused-function]8;;[m[K]
+[7.492s]     4 | static const std::string [01;35m[Klibrary_version[m[K()
+[7.492s]       |                          [01;35m[K^~~~~~~~~~~~~~~[m[K
+[7.770s] In file included from [01m[K/home/nuc11/imu_ws/witmotion_ros/witmotion-uart-qt/include/witmotion/types.h:18[m[K,
+[7.770s]                  from [01m[K/home/nuc11/imu_ws/witmotion_ros/witmotion-uart-qt/include/witmotion/wt31n-uart.h:12[m[K,
+[7.770s]                  from [01m[K/home/nuc11/imu_ws/witmotion_ros/witmotion-uart-qt/src/wt31n-uart.cpp:1[m[K:
+[7.770s] [01m[K/home/nuc11/imu_ws/witmotion_ros/witmotion-uart-qt/include/witmotion/version.h:4:26:[m[K [01;35m[Kwarning: [m[K‘[01m[Kconst string witmotion::library_version()[m[K’ defined but not used [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-function-Wunused-function]8;;[m[K]
+[7.770s]     4 | static const std::string [01;35m[Klibrary_version[m[K()
+[7.770s]       |                          [01;35m[K^~~~~~~~~~~~~~~[m[K
+[7.935s] [ 56%] [32m[1mLinking CXX shared library libwitmotion-wt31n.so[0m
+[8.076s] [ 56%] Built target witmotion-wt31n
+[8.106s] [ 58%] [34m[1mAutomatic MOC for target witmotionctl-wt31n[0m
+[8.150s] [ 58%] Built target witmotionctl-wt31n_autogen
+[8.176s] [ 59%] [32mBuilding CXX object witmotion-uart-qt/CMakeFiles/witmotionctl-wt31n.dir/src/wt31n-control.cpp.o[0m
+[8.177s] [ 61%] [32mBuilding CXX object witmotion-uart-qt/CMakeFiles/witmotionctl-wt31n.dir/include/witmotion/moc_wt31n-uart.cpp.o[0m
+[8.178s] [ 62%] [32mBuilding CXX object witmotion-uart-qt/CMakeFiles/witmotionctl-wt31n.dir/witmotionctl-wt31n_autogen/mocs_compilation.cpp.o[0m
+[8.183s] In file included from [01m[K/home/nuc11/imu_ws/witmotion_ros/witmotion-uart-qt/include/witmotion/types.h:18[m[K,
+[8.184s]                  from [01m[K/home/nuc11/imu_ws/build/witmotion_ros/witmotion-uart-qt/include/witmotion/../../../../../witmotion_ros/witmotion-uart-qt/include/witmotion/wt901-uart.h:14[m[K,
+[8.184s]                  from [01m[K/home/nuc11/imu_ws/build/witmotion_ros/witmotion-uart-qt/include/witmotion/moc_wt901-uart.cpp:10[m[K:
+[8.184s] [01m[K/home/nuc11/imu_ws/witmotion_ros/witmotion-uart-qt/include/witmotion/version.h:4:26:[m[K [01;35m[Kwarning: [m[K‘[01m[Kconst string witmotion::library_version()[m[K’ defined but not used [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-function-Wunused-function]8;;[m[K]
+[8.184s]     4 | static const std::string [01;35m[Klibrary_version[m[K()
+[8.184s]       |                          [01;35m[K^~~~~~~~~~~~~~~[m[K
+[8.398s] In file included from [01m[K/home/nuc11/imu_ws/witmotion_ros/witmotion-uart-qt/include/witmotion/types.h:18[m[K,
+[8.398s]                  from [01m[K/home/nuc11/imu_ws/witmotion_ros/witmotion-uart-qt/include/witmotion/wt901-uart.h:14[m[K,
+[8.398s]                  from [01m[K/home/nuc11/imu_ws/witmotion_ros/witmotion-uart-qt/src/wt901-uart.cpp:1[m[K:
+[8.398s] [01m[K/home/nuc11/imu_ws/witmotion_ros/witmotion-uart-qt/include/witmotion/version.h:4:26:[m[K [01;35m[Kwarning: [m[K‘[01m[Kconst string witmotion::library_version()[m[K’ defined but not used [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-function-Wunused-function]8;;[m[K]
+[8.398s]     4 | static const std::string [01;35m[Klibrary_version[m[K()
+[8.398s]       |                          [01;35m[K^~~~~~~~~~~~~~~[m[K
+[8.466s] In file included from [01m[K/home/nuc11/imu_ws/witmotion_ros/witmotion-uart-qt/include/witmotion/types.h:18[m[K,
+[8.466s]                  from [01m[K/home/nuc11/imu_ws/witmotion_ros/witmotion-uart-qt/include/witmotion/serial.h:4[m[K,
+[8.466s]                  from [01m[K/home/nuc11/imu_ws/build/witmotion_ros/witmotion-uart-qt/include/witmotion/../../../../../witmotion_ros/witmotion-uart-qt/include/witmotion/message-enumerator.h:17[m[K,
+[8.466s]                  from [01m[K/home/nuc11/imu_ws/build/witmotion_ros/witmotion-uart-qt/include/witmotion/moc_message-enumerator.cpp:10[m[K:
+[8.466s] [01m[K/home/nuc11/imu_ws/witmotion_ros/witmotion-uart-qt/include/witmotion/version.h:4:26:[m[K [01;35m[Kwarning: [m[K‘[01m[Kconst string witmotion::library_version()[m[K’ defined but not used [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-function-Wunused-function]8;;[m[K]
+[8.466s]     4 | static const std::string [01;35m[Klibrary_version[m[K()
+[8.467s]       |                          [01;35m[K^~~~~~~~~~~~~~~[m[K
+[8.668s] [ 64%] [32m[1mLinking CXX executable message-enumerator[0m
+[8.700s] [ 65%] [32m[1mLinking CXX shared library libwitmotion-wt901.so[0m
+[8.889s] [ 65%] Built target message-enumerator
+[8.935s] [ 65%] Built target witmotion-wt901
+[8.954s] [ 67%] [34m[1mAutomatic MOC for target witmotionctl-wt901[0m
+[8.961s] [ 68%] [34m[1mAutomatic MOC for target witmotion-jy901[0m
+[8.989s] [ 68%] Built target witmotionctl-wt901_autogen
+[8.991s] [ 68%] Built target witmotion-jy901_autogen
+[9.010s] [ 70%] [32mBuilding CXX object witmotion-uart-qt/CMakeFiles/witmotionctl-wt901.dir/witmotionctl-wt901_autogen/mocs_compilation.cpp.o[0m
+[9.014s] [ 71%] [32mBuilding CXX object witmotion-uart-qt/CMakeFiles/witmotionctl-wt901.dir/include/witmotion/moc_wt901-uart.cpp.o[0m
+[9.016s] [ 76%] [32mBuilding CXX object witmotion-uart-qt/CMakeFiles/witmotion-jy901.dir/witmotion-jy901_autogen/mocs_compilation.cpp.o[0m
+[9.016s] [ 76%] [32mBuilding CXX object witmotion-uart-qt/CMakeFiles/witmotionctl-wt901.dir/src/wt901-control.cpp.o[0m
+[9.017s] [ 76%] [32mBuilding CXX object witmotion-uart-qt/CMakeFiles/witmotion-jy901.dir/src/jy901-uart.cpp.o[0m
+[9.443s] [01m[K/home/nuc11/imu_ws/witmotion_ros/witmotion-uart-qt/src/wt31n-control.cpp:[m[K In function ‘[01m[Kvoid handle_shutdown(int)[m[K’:
+[9.443s] [01m[K/home/nuc11/imu_ws/witmotion_ros/witmotion-uart-qt/src/wt31n-control.cpp:31:26:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ks[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[9.443s]    31 | void handle_shutdown([01;35m[Kint s[m[K)
+[9.444s]       |                      [01;35m[K~~~~^[m[K
+[10.338s] In file included from [01m[K/home/nuc11/imu_ws/witmotion_ros/witmotion-uart-qt/include/witmotion/types.h:18[m[K,
+[10.338s]                  from [01m[K/home/nuc11/imu_ws/build/witmotion_ros/witmotion-uart-qt/include/witmotion/../../../../../witmotion_ros/witmotion-uart-qt/include/witmotion/wt901-uart.h:14[m[K,
+[10.338s]                  from [01m[K/home/nuc11/imu_ws/build/witmotion_ros/witmotion-uart-qt/include/witmotion/moc_wt901-uart.cpp:10[m[K:
+[10.338s] [01m[K/home/nuc11/imu_ws/witmotion_ros/witmotion-uart-qt/include/witmotion/version.h:4:26:[m[K [01;35m[Kwarning: [m[K‘[01m[Kconst string witmotion::library_version()[m[K’ defined but not used [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-function-Wunused-function]8;;[m[K]
+[10.338s]     4 | static const std::string [01;35m[Klibrary_version[m[K()
+[10.338s]       |                          [01;35m[K^~~~~~~~~~~~~~~[m[K
+[10.339s] In file included from [01m[K/home/nuc11/imu_ws/witmotion_ros/witmotion-uart-qt/include/witmotion/types.h:18[m[K,
+[10.339s]                  from [01m[K/home/nuc11/imu_ws/build/witmotion_ros/witmotion-uart-qt/include/witmotion/../../../../../witmotion_ros/witmotion-uart-qt/include/witmotion/wt31n-uart.h:12[m[K,
+[10.339s]                  from [01m[K/home/nuc11/imu_ws/build/witmotion_ros/witmotion-uart-qt/include/witmotion/moc_wt31n-uart.cpp:10[m[K:
+[10.339s] [01m[K/home/nuc11/imu_ws/witmotion_ros/witmotion-uart-qt/include/witmotion/version.h:4:26:[m[K [01;35m[Kwarning: [m[K‘[01m[Kconst string witmotion::library_version()[m[K’ defined but not used [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-function-Wunused-function]8;;[m[K]
+[10.339s]     4 | static const std::string [01;35m[Klibrary_version[m[K()
+[10.339s]       |                          [01;35m[K^~~~~~~~~~~~~~~[m[K
+[10.512s] [ 77%] [32m[1mLinking CXX executable witmotionctl-wt31n[0m
+[10.634s] [01m[K/home/nuc11/imu_ws/witmotion_ros/witmotion-uart-qt/src/wt901-control.cpp:[m[K In function ‘[01m[Kvoid handle_shutdown(int)[m[K’:
+[10.634s] [01m[K/home/nuc11/imu_ws/witmotion_ros/witmotion-uart-qt/src/wt901-control.cpp:22:26:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ks[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[10.634s]    22 | void handle_shutdown([01;35m[Kint s[m[K)
+[10.634s]       |                      [01;35m[K~~~~^[m[K
+[10.769s] [ 79%] Built target witmotionctl-wt31n
+[10.947s] In file included from [01m[K/home/nuc11/imu_ws/witmotion_ros/witmotion-uart-qt/include/witmotion/types.h:18[m[K,
+[10.947s]                  from [01m[K/home/nuc11/imu_ws/witmotion_ros/witmotion-uart-qt/include/witmotion/jy901-uart.h:13[m[K,
+[10.947s]                  from [01m[K/home/nuc11/imu_ws/witmotion_ros/witmotion-uart-qt/src/jy901-uart.cpp:1[m[K:
+[10.947s] [01m[K/home/nuc11/imu_ws/witmotion_ros/witmotion-uart-qt/include/witmotion/version.h:4:26:[m[K [01;35m[Kwarning: [m[K‘[01m[Kconst string witmotion::library_version()[m[K’ defined but not used [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-function-Wunused-function]8;;[m[K]
+[10.947s]     4 | static const std::string [01;35m[Klibrary_version[m[K()
+[10.947s]       |                          [01;35m[K^~~~~~~~~~~~~~~[m[K
+[11.089s] [ 80%] [32m[1mLinking CXX shared library libwitmotion-jy901.so[0m
+[11.207s] [ 80%] Built target witmotion-jy901
+[11.230s] [ 82%] [34m[1mAutomatic MOC for target witmotionctl-jy901[0m
+[11.259s] [ 82%] Built target witmotionctl-jy901_autogen
+[11.271s] [ 83%] [34m[1mGenerating include/witmotion/moc_jy901-uart.cpp[0m
+[11.295s] [ 85%] [32mBuilding CXX object witmotion-uart-qt/CMakeFiles/witmotionctl-jy901.dir/src/jy901-control.cpp.o[0m
+[11.296s] [ 86%] [32mBuilding CXX object witmotion-uart-qt/CMakeFiles/witmotionctl-jy901.dir/witmotionctl-jy901_autogen/mocs_compilation.cpp.o[0m
+[11.296s] [ 88%] [32mBuilding CXX object witmotion-uart-qt/CMakeFiles/witmotionctl-jy901.dir/include/witmotion/moc_jy901-uart.cpp.o[0m
+[11.314s] [ 89%] [32m[1mLinking CXX executable witmotionctl-wt901[0m
+[11.463s] [ 91%] Built target witmotionctl-wt901
+[11.729s] In file included from [01m[K/home/nuc11/imu_ws/witmotion_ros/witmotion-uart-qt/include/witmotion/types.h:18[m[K,
+[11.729s]                  from [01m[K/home/nuc11/imu_ws/build/witmotion_ros/include/../../../witmotion_ros/include/witmotion_ros.h:11[m[K,
+[11.729s]                  from [01m[K/home/nuc11/imu_ws/build/witmotion_ros/include/moc_witmotion_ros.cpp:10[m[K:
+[11.729s] [01m[K/home/nuc11/imu_ws/witmotion_ros/witmotion-uart-qt/include/witmotion/version.h:4:26:[m[K [01;35m[Kwarning: [m[K‘[01m[Kconst string witmotion::library_version()[m[K’ defined but not used [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-function-Wunused-function]8;;[m[K]
+[11.729s]     4 | static const std::string [01;35m[Klibrary_version[m[K()
+[11.730s]       |                          [01;35m[K^~~~~~~~~~~~~~~[m[K
+[12.299s] [01m[K/home/nuc11/imu_ws/witmotion_ros/witmotion-uart-qt/src/jy901-control.cpp:[m[K In function ‘[01m[Kvoid handle_shutdown(int)[m[K’:
+[12.299s] [01m[K/home/nuc11/imu_ws/witmotion_ros/witmotion-uart-qt/src/jy901-control.cpp:22:26:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ks[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[12.300s]    22 | void handle_shutdown([01;35m[Kint s[m[K)
+[12.300s]       |                      [01;35m[K~~~~^[m[K
+[12.373s] In file included from [01m[K/home/nuc11/imu_ws/witmotion_ros/witmotion-uart-qt/include/witmotion/types.h:18[m[K,
+[12.373s]                  from [01m[K/home/nuc11/imu_ws/build/witmotion_ros/witmotion-uart-qt/include/witmotion/../../../../../witmotion_ros/witmotion-uart-qt/include/witmotion/jy901-uart.h:13[m[K,
+[12.373s]                  from [01m[K/home/nuc11/imu_ws/build/witmotion_ros/witmotion-uart-qt/include/witmotion/moc_jy901-uart.cpp:10[m[K:
+[12.373s] [01m[K/home/nuc11/imu_ws/witmotion_ros/witmotion-uart-qt/include/witmotion/version.h:4:26:[m[K [01;35m[Kwarning: [m[K‘[01m[Kconst string witmotion::library_version()[m[K’ defined but not used [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-function-Wunused-function]8;;[m[K]
+[12.373s]     4 | static const std::string [01;35m[Klibrary_version[m[K()
+[12.373s]       |                          [01;35m[K^~~~~~~~~~~~~~~[m[K
+[12.866s] [ 92%] [32m[1mLinking CXX executable witmotionctl-jy901[0m
+[12.982s] [ 92%] Built target witmotionctl-jy901
+[15.552s] [ 94%] [32m[1mLinking CXX static library libwitmotion_ros.a[0m
+[15.628s] [ 94%] Built target witmotion_ros
+[15.639s] [ 95%] [34m[1mAutomatic MOC for target witmotion_ros_node[0m
+[15.659s] [ 95%] Built target witmotion_ros_node_autogen
+[15.674s] [ 97%] [32mBuilding CXX object CMakeFiles/witmotion_ros_node.dir/witmotion_ros_node_autogen/mocs_compilation.cpp.o[0m
+[15.674s] [ 98%] [32mBuilding CXX object CMakeFiles/witmotion_ros_node.dir/src/witmotion_ros_node.cpp.o[0m
+[18.204s] In file included from [01m[K/home/nuc11/imu_ws/witmotion_ros/witmotion-uart-qt/include/witmotion/types.h:18[m[K,
+[18.204s]                  from [01m[K/home/nuc11/imu_ws/witmotion_ros/include/witmotion_ros.h:11[m[K,
+[18.204s]                  from [01m[K/home/nuc11/imu_ws/witmotion_ros/src/witmotion_ros_node.cpp:1[m[K:
+[18.205s] [01m[K/home/nuc11/imu_ws/witmotion_ros/witmotion-uart-qt/include/witmotion/version.h:4:26:[m[K [01;35m[Kwarning: [m[K‘[01m[Kconst string witmotion::library_version()[m[K’ defined but not used [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-function-Wunused-function]8;;[m[K]
+[18.205s]     4 | static const std::string [01;35m[Klibrary_version[m[K()
+[18.205s]       |                          [01;35m[K^~~~~~~~~~~~~~~[m[K
+[18.314s] [100%] [32m[1mLinking CXX executable witmotion_ros_node[0m
+[18.914s] [100%] Built target witmotion_ros_node
+[18.923s] Invoked command in '/home/nuc11/imu_ws/build/witmotion_ros' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/nuc11/imu_ws/build/witmotion_ros -- -j16 -l16
+[18.930s] Invoking command in '/home/nuc11/imu_ws/build/witmotion_ros': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/nuc11/imu_ws/build/witmotion_ros
+[18.934s] -- Install configuration: ""
+[18.934s] -- Installing: /home/nuc11/imu_ws/install/witmotion_ros/share/witmotion_ros/environment/library_path.sh
+[18.934s] -- Installing: /home/nuc11/imu_ws/install/witmotion_ros/share/witmotion_ros/environment/library_path.dsv
+[18.934s] -- Installing: /home/nuc11/imu_ws/install/witmotion_ros/lib/libwitmotion-uart.so
+[18.934s] -- Installing: /home/nuc11/imu_ws/install/witmotion_ros/lib/libwitmotion_ros.a
+[18.938s] -- Installing: /home/nuc11/imu_ws/install/witmotion_ros/lib/witmotion_ros/witmotion_ros_node
+[18.940s] -- Set runtime path of "/home/nuc11/imu_ws/install/witmotion_ros/lib/witmotion_ros/witmotion_ros_node" to ""
+[18.940s] -- Installing: /home/nuc11/imu_ws/install/witmotion_ros/share/witmotion_ros/launch
+[18.940s] -- Installing: /home/nuc11/imu_ws/install/witmotion_ros/share/witmotion_ros/launch/yahboom10x.launch.py
+[18.940s] -- Installing: /home/nuc11/imu_ws/install/witmotion_ros/share/witmotion_ros/launch/wt901_launch.py
+[18.940s] -- Installing: /home/nuc11/imu_ws/install/witmotion_ros/share/witmotion_ros/launch/__pycache__
+[18.940s] -- Installing: /home/nuc11/imu_ws/install/witmotion_ros/share/witmotion_ros/launch/__pycache__/wt31n.cpython-310.pyc
+[18.940s] -- Installing: /home/nuc11/imu_ws/install/witmotion_ros/share/witmotion_ros/launch/wt905_launch.py
+[18.940s] -- Installing: /home/nuc11/imu_ws/install/witmotion_ros/share/witmotion_ros/launch/wt31n_launch.py
+[18.940s] -- Installing: /home/nuc11/imu_ws/install/witmotion_ros/share/witmotion_ros/launch/wt901.launch.py
+[18.940s] -- Installing: /home/nuc11/imu_ws/install/witmotion_ros/share/witmotion_ros/launch/witmotion_launch.py
+[18.940s] -- Installing: /home/nuc11/imu_ws/install/witmotion_ros/share/witmotion_ros/launch/wt31n.launch.py
+[18.941s] -- Installing: /home/nuc11/imu_ws/install/witmotion_ros/share/witmotion_ros/launch/wt61c.launch.py
+[18.941s] -- Installing: /home/nuc11/imu_ws/install/witmotion_ros/share/witmotion_ros/launch/yahboom10x_launch.py
+[18.941s] -- Installing: /home/nuc11/imu_ws/install/witmotion_ros/share/witmotion_ros/launch/wt61c_launch.py
+[18.941s] -- Installing: /home/nuc11/imu_ws/install/witmotion_ros/share/witmotion_ros/launch/witmotion.launch.py
+[18.941s] -- Installing: /home/nuc11/imu_ws/install/witmotion_ros/share/witmotion_ros/launch/wt905.launch.py
+[18.941s] -- Installing: /home/nuc11/imu_ws/install/witmotion_ros/share/witmotion_ros/config
+[18.941s] -- Installing: /home/nuc11/imu_ws/install/witmotion_ros/share/witmotion_ros/config/config.yml
+[18.941s] -- Installing: /home/nuc11/imu_ws/install/witmotion_ros/share/witmotion_ros/config/wt905.yml
+[18.941s] -- Installing: /home/nuc11/imu_ws/install/witmotion_ros/share/witmotion_ros/config/wt61c.yml
+[18.941s] -- Installing: /home/nuc11/imu_ws/install/witmotion_ros/share/witmotion_ros/config/wt901.yml
+[18.941s] -- Installing: /home/nuc11/imu_ws/install/witmotion_ros/share/witmotion_ros/config/yahboom10x.yml
+[18.941s] -- Installing: /home/nuc11/imu_ws/install/witmotion_ros/share/witmotion_ros/config/wt31n.yml
+[18.941s] -- Installing: /home/nuc11/imu_ws/install/witmotion_ros/share/ament_index/resource_index/package_run_dependencies/witmotion_ros
+[18.941s] -- Installing: /home/nuc11/imu_ws/install/witmotion_ros/share/ament_index/resource_index/parent_prefix_path/witmotion_ros
+[18.941s] -- Installing: /home/nuc11/imu_ws/install/witmotion_ros/share/witmotion_ros/environment/ament_prefix_path.sh
+[18.941s] -- Installing: /home/nuc11/imu_ws/install/witmotion_ros/share/witmotion_ros/environment/ament_prefix_path.dsv
+[18.941s] -- Installing: /home/nuc11/imu_ws/install/witmotion_ros/share/witmotion_ros/environment/path.sh
+[18.941s] -- Installing: /home/nuc11/imu_ws/install/witmotion_ros/share/witmotion_ros/environment/path.dsv
+[18.941s] -- Installing: /home/nuc11/imu_ws/install/witmotion_ros/share/witmotion_ros/local_setup.bash
+[18.941s] -- Installing: /home/nuc11/imu_ws/install/witmotion_ros/share/witmotion_ros/local_setup.sh
+[18.941s] -- Installing: /home/nuc11/imu_ws/install/witmotion_ros/share/witmotion_ros/local_setup.zsh
+[18.941s] -- Installing: /home/nuc11/imu_ws/install/witmotion_ros/share/witmotion_ros/local_setup.dsv
+[18.941s] -- Installing: /home/nuc11/imu_ws/install/witmotion_ros/share/witmotion_ros/package.dsv
+[18.941s] -- Installing: /home/nuc11/imu_ws/install/witmotion_ros/share/ament_index/resource_index/packages/witmotion_ros
+[18.941s] -- Installing: /home/nuc11/imu_ws/install/witmotion_ros/share/witmotion_ros/cmake/export_witmotion_rosExport.cmake
+[18.942s] -- Installing: /home/nuc11/imu_ws/install/witmotion_ros/share/witmotion_ros/cmake/export_witmotion_rosExport-noconfig.cmake
+[18.942s] -- Installing: /home/nuc11/imu_ws/install/witmotion_ros/share/witmotion_ros/cmake/export_witmotion-uartExport.cmake
+[18.942s] -- Installing: /home/nuc11/imu_ws/install/witmotion_ros/share/witmotion_ros/cmake/export_witmotion-uartExport-noconfig.cmake
+[18.942s] -- Installing: /home/nuc11/imu_ws/install/witmotion_ros/share/witmotion_ros/cmake/ament_cmake_export_dependencies-extras.cmake
+[18.942s] -- Installing: /home/nuc11/imu_ws/install/witmotion_ros/share/witmotion_ros/cmake/ament_cmake_export_targets-extras.cmake
+[18.942s] -- Installing: /home/nuc11/imu_ws/install/witmotion_ros/share/witmotion_ros/cmake/ament_cmake_export_libraries-extras.cmake
+[18.942s] -- Installing: /home/nuc11/imu_ws/install/witmotion_ros/share/witmotion_ros/cmake/witmotion_rosConfig.cmake
+[18.942s] -- Installing: /home/nuc11/imu_ws/install/witmotion_ros/share/witmotion_ros/cmake/witmotion_rosConfig-version.cmake
+[18.942s] -- Installing: /home/nuc11/imu_ws/install/witmotion_ros/share/witmotion_ros/package.xml
+[18.943s] Invoked command in '/home/nuc11/imu_ws/build/witmotion_ros' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/nuc11/imu_ws/build/witmotion_ros

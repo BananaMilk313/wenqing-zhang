@@ -1,0 +1,34 @@
+[0.008s] Invoking command in '/home/nuc11/imu_ws/build/witmotion_ros': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/nuc11/imu_ws/witmotion_ros -DCMAKE_INSTALL_PREFIX=/home/nuc11/imu_ws/install/witmotion_ros
+[0.106s] -- The C compiler identification is GNU 11.4.0
+[0.173s] -- The CXX compiler identification is GNU 11.4.0
+[0.182s] -- Detecting C compiler ABI info
+[0.228s] -- Detecting C compiler ABI info - done
+[0.232s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.233s] -- Detecting C compile features
+[0.234s] -- Detecting C compile features - done
+[0.236s] -- Detecting CXX compiler ABI info
+[0.287s] -- Detecting CXX compiler ABI info - done
+[0.293s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.293s] -- Detecting CXX compile features
+[0.293s] -- Detecting CXX compile features - done
+[0.296s] -- Building version 1.2.28~dev_5c2e86d
+[0.297s] -- Looking for inttypes.h
+[0.347s] -- Looking for inttypes.h - found
+[0.356s] [31mCMake Error at /usr/lib/x86_64-linux-gnu/cmake/Qt5/Qt5Config.cmake:28 (find_package):
+[0.356s]   Could not find a package configuration file provided by "Qt5SerialPort"
+[0.356s]   with any of the following names:
+[0.356s] 
+[0.356s]     Qt5SerialPortConfig.cmake
+[0.356s]     qt5serialport-config.cmake
+[0.356s] 
+[0.356s]   Add the installation prefix of "Qt5SerialPort" to CMAKE_PREFIX_PATH or set
+[0.356s]   "Qt5SerialPort_DIR" to a directory containing one of the above files.  If
+[0.356s]   "Qt5SerialPort" provides a separate development package or SDK, be sure it
+[0.357s]   has been installed.
+[0.357s] Call Stack (most recent call first):
+[0.357s]   witmotion-uart-qt/CMakeLists.txt:30 (find_package)
+[0.357s] 
+[0.357s] [0m
+[0.357s] -- Configuring incomplete, errors occurred!
+[0.357s] See also "/home/nuc11/imu_ws/build/witmotion_ros/CMakeFiles/CMakeOutput.log".
+[0.359s] Invoked command in '/home/nuc11/imu_ws/build/witmotion_ros' returned '1': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/nuc11/imu_ws/witmotion_ros -DCMAKE_INSTALL_PREFIX=/home/nuc11/imu_ws/install/witmotion_ros

@@ -1,0 +1,610 @@
+[0.000000] (-) TimerEvent: {}
+[0.000415] (witmotion-uart-qt) JobQueued: {'identifier': 'witmotion-uart-qt', 'dependencies': OrderedDict()}
+[0.000445] (witmotion_ros) JobQueued: {'identifier': 'witmotion_ros', 'dependencies': OrderedDict()}
+[0.000466] (witmotion-uart-qt) JobStarted: {'identifier': 'witmotion-uart-qt'}
+[0.003432] (witmotion_ros) JobStarted: {'identifier': 'witmotion_ros'}
+[0.006063] (witmotion-uart-qt) JobProgress: {'identifier': 'witmotion-uart-qt', 'progress': 'cmake'}
+[0.006274] (witmotion-uart-qt) Command: {'cmd': ['/usr/bin/cmake', '/home/nuc11/imu_ws/witmotion-uart-qt', '-DCMAKE_INSTALL_PREFIX=/home/nuc11/imu_ws/install/witmotion-uart-qt'], 'cwd': '/home/nuc11/imu_ws/build/witmotion-uart-qt', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:en'), ('USER', 'nuc11'), ('LC_TIME', 'en_US.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/nuc11'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'en_US.UTF-8'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1258'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=a770b99dc28de0557a7a09af67e5674e'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'nuc11'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'nuc11'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/nuc11-NUC13TZi7:@/tmp/.ICE-unix/1258,unix/nuc11-NUC13TZi7:/tmp/.ICE-unix/1258'), ('PAPERSIZE', 'letter'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'en_US.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/94caec70_58fc_42c2_b828_230f20b4ce2a'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'en_US.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.195732'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.99'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'en_US.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'en_US.UTF-8'), ('LC_IDENTIFICATION', 'en_US.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/nuc11/imu_ws/build/witmotion-uart-qt'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=a770b99dc28de0557a7a09af67e5674e'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'en_US.UTF-8'), ('LC_PAPER', 'en_US.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800')]), 'shell': False}
+[0.007941] (witmotion_ros) JobProgress: {'identifier': 'witmotion_ros', 'progress': 'cmake'}
+[0.008606] (witmotion_ros) Command: {'cmd': ['/usr/bin/cmake', '/home/nuc11/imu_ws/witmotion_ros', '-DCMAKE_INSTALL_PREFIX=/home/nuc11/imu_ws/install/witmotion_ros'], 'cwd': '/home/nuc11/imu_ws/build/witmotion_ros', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:en'), ('USER', 'nuc11'), ('LC_TIME', 'en_US.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/nuc11'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'en_US.UTF-8'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1258'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=a770b99dc28de0557a7a09af67e5674e'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'nuc11'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'nuc11'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/nuc11-NUC13TZi7:@/tmp/.ICE-unix/1258,unix/nuc11-NUC13TZi7:/tmp/.ICE-unix/1258'), ('PAPERSIZE', 'letter'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'en_US.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/94caec70_58fc_42c2_b828_230f20b4ce2a'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'en_US.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.195732'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.99'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'en_US.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'en_US.UTF-8'), ('LC_IDENTIFICATION', 'en_US.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/nuc11/imu_ws/build/witmotion_ros'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=a770b99dc28de0557a7a09af67e5674e'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'en_US.UTF-8'), ('LC_PAPER', 'en_US.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.020270] (witmotion_ros) StdoutLine: {'line': b'-- Building version 1.2.28~dev_5c2e86d\n'}
+[0.027198] (witmotion_ros) StdoutLine: {'line': b'-- Could NOT find Doxygen (missing: DOXYGEN_EXECUTABLE) \n'}
+[0.027282] (witmotion_ros) StdoutLine: {'line': b'-- Unable to found Doxygen. The documentation for witmotion-uart-qt will not be built\n'}
+[0.028158] (witmotion_ros) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.063064] (witmotion-uart-qt) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.097294] (witmotion-uart-qt) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.099936] (-) TimerEvent: {}
+[0.102571] (witmotion-uart-qt) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.124626] (witmotion_ros) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[0.152216] (witmotion-uart-qt) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.158469] (witmotion-uart-qt) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.159155] (witmotion-uart-qt) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.159534] (witmotion-uart-qt) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.162206] (witmotion-uart-qt) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.174976] (witmotion_ros) StdoutLine: {'line': b'-- Found tf2: 0.25.12 (/opt/ros/humble/share/tf2/cmake)\n'}
+[0.197546] (witmotion_ros) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.200118] (-) TimerEvent: {}
+[0.200341] (witmotion_ros) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.204599] (witmotion_ros) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.211151] (witmotion_ros) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.218791] (witmotion-uart-qt) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.219189] (witmotion_ros) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.224762] (witmotion-uart-qt) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.224850] (witmotion-uart-qt) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.224981] (witmotion-uart-qt) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.228328] (witmotion-uart-qt) StdoutLine: {'line': b'-- Building version 1.3.1~dev_f86b70f\n'}
+[0.229018] (witmotion-uart-qt) StdoutLine: {'line': b'-- Looking for inttypes.h\n'}
+[0.240571] (witmotion_ros) StdoutLine: {'line': b'-- Found tf2_geometry_msgs: 0.25.12 (/opt/ros/humble/share/tf2_geometry_msgs/cmake)\n'}
+[0.247168] (witmotion_ros) StdoutLine: {'line': b'-- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)\n'}
+[0.247955] (witmotion_ros) StdoutLine: {'line': b'-- Found Eigen3: TRUE (found version "3.4.0") \n'}
+[0.248027] (witmotion_ros) StdoutLine: {'line': b'-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target\n'}
+[0.275848] (witmotion-uart-qt) StdoutLine: {'line': b'-- Looking for inttypes.h - found\n'}
+[0.280573] (witmotion_ros) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.281927] (witmotion_ros) StdoutLine: {'line': b'-- Found rmw_cyclonedds_cpp: 1.3.4 (/opt/ros/humble/share/rmw_cyclonedds_cpp/cmake)\n'}
+[0.284537] (witmotion-uart-qt) StdoutLine: {'line': b'-- Could NOT find Doxygen (missing: DOXYGEN_EXECUTABLE) \n'}
+[0.284619] (witmotion-uart-qt) StdoutLine: {'line': b'-- Unable to found Doxygen. The documentation for witmotion-uart-qt will not be built\n'}
+[0.284676] (witmotion-uart-qt) StdoutLine: {'line': b'-- Configuring done\n'}
+[0.292638] (witmotion_ros) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_cyclonedds_cpp' as default\n"}
+[0.296773] (witmotion_ros) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[0.300194] (-) TimerEvent: {}
+[0.305124] (witmotion-uart-qt) StdoutLine: {'line': b'-- Generating done\n'}
+[0.307941] (witmotion-uart-qt) StdoutLine: {'line': b'-- Build files have been written to: /home/nuc11/imu_ws/build/witmotion-uart-qt\n'}
+[0.310777] (witmotion-uart-qt) CommandEnded: {'returncode': 0}
+[0.311162] (witmotion-uart-qt) JobProgress: {'identifier': 'witmotion-uart-qt', 'progress': 'build'}
+[0.311214] (witmotion-uart-qt) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/nuc11/imu_ws/build/witmotion-uart-qt', '--', '-j16', '-l16'], 'cwd': '/home/nuc11/imu_ws/build/witmotion-uart-qt', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:en'), ('USER', 'nuc11'), ('LC_TIME', 'en_US.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/nuc11'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'en_US.UTF-8'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1258'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=a770b99dc28de0557a7a09af67e5674e'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'nuc11'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'nuc11'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/nuc11-NUC13TZi7:@/tmp/.ICE-unix/1258,unix/nuc11-NUC13TZi7:/tmp/.ICE-unix/1258'), ('PAPERSIZE', 'letter'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'en_US.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/94caec70_58fc_42c2_b828_230f20b4ce2a'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'en_US.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.195732'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.99'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'en_US.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'en_US.UTF-8'), ('LC_IDENTIFICATION', 'en_US.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/nuc11/imu_ws/build/witmotion-uart-qt'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=a770b99dc28de0557a7a09af67e5674e'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'en_US.UTF-8'), ('LC_PAPER', 'en_US.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800')]), 'shell': False}
+[0.338834] (witmotion_ros) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[0.339276] (witmotion_ros) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[0.341960] (witmotion-uart-qt) StdoutLine: {'line': b'[  1%] \x1b[34m\x1b[1mAutomatic MOC for target wt31n-calibration\x1b[0m\n'}
+[0.342817] (witmotion-uart-qt) StdoutLine: {'line': b'[  3%] \x1b[34m\x1b[1mAutomatic MOC for target wt31n-standalone-decoder\x1b[0m\n'}
+[0.343722] (witmotion-uart-qt) StdoutLine: {'line': b'[  5%] \x1b[34m\x1b[1mAutomatic MOC for target witmotion-uart\x1b[0m\n'}
+[0.361971] (witmotion-uart-qt) StdoutLine: {'line': b'[  5%] Built target witmotion-uart_autogen\n'}
+[0.362710] (witmotion-uart-qt) StdoutLine: {'line': b'[  5%] Built target wt31n-calibration_autogen\n'}
+[0.367680] (witmotion-uart-qt) StdoutLine: {'line': b'[  8%] \x1b[34m\x1b[1mGenerating include/witmotion/moc_types.cpp\x1b[0m\n'}
+[0.367849] (witmotion-uart-qt) StdoutLine: {'line': b'[  8%] \x1b[34m\x1b[1mGenerating include/witmotion/moc_serial.cpp\x1b[0m\n'}
+[0.373770] (witmotion-uart-qt) StdoutLine: {'line': b'[ 10%] \x1b[32mBuilding CXX object CMakeFiles/wt31n-calibration.dir/wt31n-calibration_autogen/mocs_compilation.cpp.o\x1b[0m\n'}
+[0.375661] (witmotion-uart-qt) StdoutLine: {'line': b'[ 12%] \x1b[32mBuilding CXX object CMakeFiles/wt31n-calibration.dir/examples/wt31n/calibration-standalone.cpp.o\x1b[0m\n'}
+[0.382728] (witmotion-uart-qt) StdoutLine: {'line': b'[ 17%] \x1b[32mBuilding CXX object CMakeFiles/witmotion-uart.dir/include/witmotion/moc_types.cpp.o\x1b[0m\n'}
+[0.382938] (witmotion-uart-qt) StdoutLine: {'line': b'[ 17%] \x1b[32mBuilding CXX object CMakeFiles/witmotion-uart.dir/witmotion-uart_autogen/mocs_compilation.cpp.o\x1b[0m\n'}
+[0.383019] (witmotion-uart-qt) StdoutLine: {'line': b'[ 17%] \x1b[32mBuilding CXX object CMakeFiles/witmotion-uart.dir/include/witmotion/moc_serial.cpp.o\x1b[0m\n'}
+[0.384449] (witmotion-uart-qt) StdoutLine: {'line': b'[ 19%] \x1b[32mBuilding CXX object CMakeFiles/witmotion-uart.dir/src/serial.cpp.o\x1b[0m\n'}
+[0.384895] (witmotion-uart-qt) StdoutLine: {'line': b'[ 21%] \x1b[32mBuilding CXX object CMakeFiles/witmotion-uart.dir/src/util.cpp.o\x1b[0m\n'}
+[0.391802] (witmotion_ros) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[0.392666] (witmotion_ros) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[0.400299] (-) TimerEvent: {}
+[0.455890] (witmotion_ros) StdoutLine: {'line': b'-- Found std_srvs: 4.2.4 (/opt/ros/humble/share/std_srvs/cmake)\n'}
+[0.461379] (witmotion_ros) StdoutLine: {'line': b'-- Found sensor_msgs: 4.2.4 (/opt/ros/humble/share/sensor_msgs/cmake)\n'}
+[0.471774] (witmotion_ros) StdoutLine: {'line': b'-- Found nav_msgs: 4.2.4 (/opt/ros/humble/share/nav_msgs/cmake)\n'}
+[0.483344] (witmotion_ros) StdoutLine: {'line': b'-- Found rclcpp_lifecycle: 16.0.11 (/opt/ros/humble/share/rclcpp_lifecycle/cmake)\n'}
+[0.494110] (witmotion_ros) StderrLine: {'line': b'\x1b[33mCMake Warning at CMakeLists.txt:51 (message):\n'}
+[0.494310] (witmotion_ros) StderrLine: {'line': b'  tf2_geometry_msgs include dir:\n'}
+[0.494374] (witmotion_ros) StderrLine: {'line': b'  /opt/ros/humble/include/tf2_geometry_msgs;/opt/ros/humble/include/geometry_msgs;/usr/include/eigen3;/opt/ros/humble/include/tf2;/opt/ros/humble/include/tf2_ros\n'}
+[0.494431] (witmotion_ros) StderrLine: {'line': b'\n'}
+[0.494484] (witmotion_ros) StderrLine: {'line': b'\x1b[0m\n'}
+[0.496449] (witmotion_ros) StdoutLine: {'line': b'-- Found ament_cmake_auto: 1.3.11 (/opt/ros/humble/share/ament_cmake_auto/cmake)\n'}
+[0.500432] (-) TimerEvent: {}
+[0.551143] (witmotion-uart-qt) StdoutLine: {'line': b'[ 21%] Built target wt31n-standalone-decoder_autogen\n'}
+[0.569022] (witmotion-uart-qt) StdoutLine: {'line': b'[ 24%] \x1b[32mBuilding CXX object CMakeFiles/wt31n-standalone-decoder.dir/examples/wt31n/witmotion-wt31n-uart-test.cpp.o\x1b[0m\n'}
+[0.569204] (witmotion-uart-qt) StdoutLine: {'line': b'[ 24%] \x1b[32mBuilding CXX object CMakeFiles/wt31n-standalone-decoder.dir/wt31n-standalone-decoder_autogen/mocs_compilation.cpp.o\x1b[0m\n'}
+[0.600574] (-) TimerEvent: {}
+[0.700910] (-) TimerEvent: {}
+[0.801239] (-) TimerEvent: {}
+[0.901556] (-) TimerEvent: {}
+[1.001877] (-) TimerEvent: {}
+[1.102216] (-) TimerEvent: {}
+[1.202533] (-) TimerEvent: {}
+[1.250767] (witmotion-uart-qt) StdoutLine: {'line': b'[ 26%] \x1b[32m\x1b[1mLinking CXX executable wt31n-calibration\x1b[0m\n'}
+[1.302769] (-) TimerEvent: {}
+[1.386521] (witmotion-uart-qt) StdoutLine: {'line': b'[ 26%] Built target wt31n-calibration\n'}
+[1.402996] (-) TimerEvent: {}
+[1.503388] (-) TimerEvent: {}
+[1.603770] (-) TimerEvent: {}
+[1.618166] (witmotion_ros) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[1.639599] (witmotion_ros) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[1.639815] (witmotion_ros) StdoutLine: {'line': b'-- Configured cppcheck include dirs: /home/nuc11/imu_ws/witmotion_ros/include;/home/nuc11/imu_ws/witmotion_ros/witmotion-uart-qt/include\n'}
+[1.639894] (witmotion_ros) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[1.640968] (witmotion_ros) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[1.642586] (witmotion_ros) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[1.643513] (witmotion_ros) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[1.649033] (witmotion_ros) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[1.649233] (witmotion_ros) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[1.650071] (witmotion_ros) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[1.651113] (witmotion_ros) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.704007] (-) TimerEvent: {}
+[1.741099] (witmotion-uart-qt) StdoutLine: {'line': b'[ 28%] \x1b[32m\x1b[1mLinking CXX shared library libwitmotion-uart.so\x1b[0m\n'}
+[1.803300] (witmotion-uart-qt) StdoutLine: {'line': b'[ 29%] \x1b[32m\x1b[1mLinking CXX executable wt31n-standalone-decoder\x1b[0m\n'}
+[1.804064] (-) TimerEvent: {}
+[1.836124] (witmotion-uart-qt) StdoutLine: {'line': b'[ 29%] Built target witmotion-uart\n'}
+[1.855168] (witmotion-uart-qt) StdoutLine: {'line': b'[ 31%] \x1b[34m\x1b[1mAutomatic MOC for target witmotion-wt31n\x1b[0m\n'}
+[1.855434] (witmotion-uart-qt) StdoutLine: {'line': b'[ 33%] \x1b[34m\x1b[1mAutomatic MOC for target message-enumerator\x1b[0m\n'}
+[1.855549] (witmotion-uart-qt) StdoutLine: {'line': b'[ 35%] \x1b[34m\x1b[1mAutomatic MOC for target witmotion-wt901\x1b[0m\n'}
+[1.882152] (witmotion-uart-qt) StdoutLine: {'line': b'[ 35%] Built target witmotion-wt901_autogen\n'}
+[1.884332] (witmotion-uart-qt) StdoutLine: {'line': b'[ 35%] Built target message-enumerator_autogen\n'}
+[1.884472] (witmotion-uart-qt) StdoutLine: {'line': b'[ 35%] Built target witmotion-wt31n_autogen\n'}
+[1.889030] (witmotion-uart-qt) StdoutLine: {'line': b'[ 36%] \x1b[34m\x1b[1mGenerating include/witmotion/moc_wt901-uart.cpp\x1b[0m\n'}
+[1.891516] (witmotion-uart-qt) StdoutLine: {'line': b'[ 38%] \x1b[34m\x1b[1mGenerating include/witmotion/moc_message-enumerator.cpp\x1b[0m\n'}
+[1.891923] (witmotion-uart-qt) StdoutLine: {'line': b'[ 40%] \x1b[34m\x1b[1mGenerating include/witmotion/moc_wt31n-uart.cpp\x1b[0m\n'}
+[1.904168] (-) TimerEvent: {}
+[1.908410] (witmotion-uart-qt) StdoutLine: {'line': b'[ 45%] \x1b[32mBuilding CXX object CMakeFiles/witmotion-wt31n.dir/witmotion-wt31n_autogen/mocs_compilation.cpp.o\x1b[0m\n'}
+[1.908605] (witmotion-uart-qt) StdoutLine: {'line': b'[ 45%] \x1b[32mBuilding CXX object CMakeFiles/witmotion-wt901.dir/witmotion-wt901_autogen/mocs_compilation.cpp.o\x1b[0m\n'}
+[1.908685] (witmotion-uart-qt) StdoutLine: {'line': b'[ 45%] \x1b[32mBuilding CXX object CMakeFiles/witmotion-wt31n.dir/include/witmotion/moc_wt31n-uart.cpp.o\x1b[0m\n'}
+[1.909116] (witmotion-uart-qt) StdoutLine: {'line': b'[ 47%] \x1b[32mBuilding CXX object CMakeFiles/witmotion-wt31n.dir/src/wt31n-uart.cpp.o\x1b[0m\n'}
+[1.910108] (witmotion-uart-qt) StdoutLine: {'line': b'[ 49%] \x1b[32mBuilding CXX object CMakeFiles/message-enumerator.dir/include/witmotion/moc_message-enumerator.cpp.o\x1b[0m\n'}
+[1.910252] (witmotion-uart-qt) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/message-enumerator.dir/src/message-enumerator.cpp.o\x1b[0m\n'}
+[1.910560] (witmotion-uart-qt) StdoutLine: {'line': b'[ 52%] \x1b[32mBuilding CXX object CMakeFiles/message-enumerator.dir/message-enumerator_autogen/mocs_compilation.cpp.o\x1b[0m\n'}
+[1.910668] (witmotion-uart-qt) StdoutLine: {'line': b'[ 54%] \x1b[32mBuilding CXX object CMakeFiles/witmotion-wt901.dir/include/witmotion/moc_wt901-uart.cpp.o\x1b[0m\n'}
+[1.911477] (witmotion-uart-qt) StdoutLine: {'line': b'[ 56%] \x1b[32mBuilding CXX object CMakeFiles/witmotion-wt901.dir/src/wt901-uart.cpp.o\x1b[0m\n'}
+[1.961659] (witmotion-uart-qt) StdoutLine: {'line': b'[ 56%] Built target wt31n-standalone-decoder\n'}
+[2.004288] (-) TimerEvent: {}
+[2.063808] (witmotion_ros) StdoutLine: {'line': b'-- Generating done\n'}
+[2.095978] (witmotion_ros) StdoutLine: {'line': b'-- Build files have been written to: /home/nuc11/imu_ws/build/witmotion_ros\n'}
+[2.104405] (-) TimerEvent: {}
+[2.114660] (witmotion_ros) CommandEnded: {'returncode': 0}
+[2.117046] (witmotion_ros) JobProgress: {'identifier': 'witmotion_ros', 'progress': 'build'}
+[2.118892] (witmotion_ros) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/nuc11/imu_ws/build/witmotion_ros', '--', '-j16', '-l16'], 'cwd': '/home/nuc11/imu_ws/build/witmotion_ros', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:en'), ('USER', 'nuc11'), ('LC_TIME', 'en_US.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/nuc11'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'en_US.UTF-8'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1258'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=a770b99dc28de0557a7a09af67e5674e'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'nuc11'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'nuc11'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/nuc11-NUC13TZi7:@/tmp/.ICE-unix/1258,unix/nuc11-NUC13TZi7:/tmp/.ICE-unix/1258'), ('PAPERSIZE', 'letter'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'en_US.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/94caec70_58fc_42c2_b828_230f20b4ce2a'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'en_US.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.195732'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.99'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'en_US.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'en_US.UTF-8'), ('LC_IDENTIFICATION', 'en_US.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/nuc11/imu_ws/build/witmotion_ros'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=a770b99dc28de0557a7a09af67e5674e'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'en_US.UTF-8'), ('LC_PAPER', 'en_US.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[2.204768] (-) TimerEvent: {}
+[2.306278] (-) TimerEvent: {}
+[2.367938] (witmotion_ros) StdoutLine: {'line': b'[  1%] \x1b[34m\x1b[1mAutomatic MOC for target witmotion-uart\x1b[0m\n'}
+[2.380456] (witmotion_ros) StdoutLine: {'line': b'[  2%] \x1b[34m\x1b[1mAutomatic MOC for target wt31n-calibration\x1b[0m\n'}
+[2.382397] (witmotion_ros) StdoutLine: {'line': b'[  4%] \x1b[34m\x1b[1mAutomatic MOC for target wt31n-standalone-decoder\x1b[0m\n'}
+[2.406581] (-) TimerEvent: {}
+[2.507894] (-) TimerEvent: {}
+[2.573710] (witmotion_ros) StdoutLine: {'line': b'[  4%] Built target witmotion-uart_autogen\n'}
+[2.583411] (witmotion_ros) StdoutLine: {'line': b'[  4%] Built target wt31n-calibration_autogen\n'}
+[2.608270] (-) TimerEvent: {}
+[2.636262] (witmotion_ros) StdoutLine: {'line': b'[  7%] \x1b[34m\x1b[1mGenerating include/witmotion/moc_types.cpp\x1b[0m\n'}
+[2.637406] (witmotion_ros) StdoutLine: {'line': b'[  7%] \x1b[34m\x1b[1mGenerating include/witmotion/moc_serial.cpp\x1b[0m\n'}
+[2.708146] (witmotion_ros) StdoutLine: {'line': b'[ 10%] \x1b[32mBuilding CXX object witmotion-uart-qt/CMakeFiles/wt31n-calibration.dir/wt31n-calibration_autogen/mocs_compilation.cpp.o\x1b[0m\n'}
+[2.709204] (-) TimerEvent: {}
+[2.709945] (witmotion_ros) StdoutLine: {'line': b'[ 10%] \x1b[32mBuilding CXX object witmotion-uart-qt/CMakeFiles/wt31n-calibration.dir/examples/wt31n/calibration-standalone.cpp.o\x1b[0m\n'}
+[2.776919] (witmotion_ros) StdoutLine: {'line': b'[ 11%] \x1b[32mBuilding CXX object witmotion-uart-qt/CMakeFiles/witmotion-uart.dir/include/witmotion/moc_types.cpp.o\x1b[0m\n'}
+[2.779751] (witmotion_ros) StdoutLine: {'line': b'[ 13%] \x1b[32mBuilding CXX object witmotion-uart-qt/CMakeFiles/witmotion-uart.dir/include/witmotion/moc_serial.cpp.o\x1b[0m\n'}
+[2.781108] (witmotion_ros) StdoutLine: {'line': b'[ 16%] \x1b[32mBuilding CXX object witmotion-uart-qt/CMakeFiles/witmotion-uart.dir/src/util.cpp.o\x1b[0m\n'}
+[2.781740] (witmotion_ros) StdoutLine: {'line': b'[ 16%] \x1b[32mBuilding CXX object witmotion-uart-qt/CMakeFiles/witmotion-uart.dir/witmotion-uart_autogen/mocs_compilation.cpp.o\x1b[0m\n'}
+[2.786492] (witmotion_ros) StdoutLine: {'line': b'[ 17%] \x1b[32mBuilding CXX object witmotion-uart-qt/CMakeFiles/witmotion-uart.dir/src/serial.cpp.o\x1b[0m\n'}
+[2.809521] (-) TimerEvent: {}
+[2.910496] (-) TimerEvent: {}
+[3.011010] (-) TimerEvent: {}
+[3.070223] (witmotion_ros) StdoutLine: {'line': b'[ 17%] Built target wt31n-standalone-decoder_autogen\n'}
+[3.092856] (witmotion_ros) StdoutLine: {'line': b'[ 19%] \x1b[32mBuilding CXX object witmotion-uart-qt/CMakeFiles/wt31n-standalone-decoder.dir/wt31n-standalone-decoder_autogen/mocs_compilation.cpp.o\x1b[0m\n'}
+[3.096386] (witmotion_ros) StdoutLine: {'line': b'[ 20%] \x1b[32mBuilding CXX object witmotion-uart-qt/CMakeFiles/wt31n-standalone-decoder.dir/examples/wt31n/witmotion-wt31n-uart-test.cpp.o\x1b[0m\n'}
+[3.111129] (-) TimerEvent: {}
+[3.211517] (-) TimerEvent: {}
+[3.311896] (-) TimerEvent: {}
+[3.412289] (-) TimerEvent: {}
+[3.512670] (-) TimerEvent: {}
+[3.613039] (-) TimerEvent: {}
+[3.713385] (-) TimerEvent: {}
+[3.813749] (-) TimerEvent: {}
+[3.914134] (-) TimerEvent: {}
+[4.014503] (-) TimerEvent: {}
+[4.114879] (-) TimerEvent: {}
+[4.215254] (-) TimerEvent: {}
+[4.315627] (-) TimerEvent: {}
+[4.354940] (witmotion_ros) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/nuc11/imu_ws/build/witmotion_ros/witmotion-uart-qt/include/witmotion/../../../../../witmotion_ros/witmotion-uart-qt/include/witmotion/types.h:18\x1b[m\x1b[K,\n'}
+[4.355203] (witmotion_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/nuc11/imu_ws/build/witmotion_ros/witmotion-uart-qt/include/witmotion/moc_types.cpp:10\x1b[m\x1b[K:\n'}
+[4.355329] (witmotion_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/nuc11/imu_ws/witmotion_ros/witmotion-uart-qt/include/witmotion/version.h:4:26:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kconst string witmotion::library_version()\x1b[m\x1b[K\xe2\x80\x99 defined but not used [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-function\x07-Wunused-function\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[4.355419] (witmotion_ros) StderrLine: {'line': b'    4 | static const std::string \x1b[01;35m\x1b[Klibrary_version\x1b[m\x1b[K()\n'}
+[4.355499] (witmotion_ros) StderrLine: {'line': b'      |                          \x1b[01;35m\x1b[K^~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.358619] (witmotion_ros) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/nuc11/imu_ws/witmotion_ros/witmotion-uart-qt/include/witmotion/types.h:18\x1b[m\x1b[K,\n'}
+[4.358861] (witmotion_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/nuc11/imu_ws/build/witmotion_ros/witmotion-uart-qt/include/witmotion/../../../../../witmotion_ros/witmotion-uart-qt/include/witmotion/serial.h:4\x1b[m\x1b[K,\n'}
+[4.358977] (witmotion_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/nuc11/imu_ws/build/witmotion_ros/witmotion-uart-qt/include/witmotion/moc_serial.cpp:10\x1b[m\x1b[K:\n'}
+[4.359068] (witmotion_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/nuc11/imu_ws/witmotion_ros/witmotion-uart-qt/include/witmotion/version.h:4:26:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kconst string witmotion::library_version()\x1b[m\x1b[K\xe2\x80\x99 defined but not used [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-function\x07-Wunused-function\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[4.359155] (witmotion_ros) StderrLine: {'line': b'    4 | static const std::string \x1b[01;35m\x1b[Klibrary_version\x1b[m\x1b[K()\n'}
+[4.359231] (witmotion_ros) StderrLine: {'line': b'      |                          \x1b[01;35m\x1b[K^~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.415752] (-) TimerEvent: {}
+[4.514219] (witmotion_ros) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/nuc11/imu_ws/witmotion_ros/witmotion-uart-qt/include/witmotion/types.h:18\x1b[m\x1b[K,\n'}
+[4.514464] (witmotion_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/nuc11/imu_ws/witmotion_ros/witmotion-uart-qt/include/witmotion/util.h:9\x1b[m\x1b[K,\n'}
+[4.514568] (witmotion_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/nuc11/imu_ws/witmotion_ros/witmotion-uart-qt/src/util.cpp:1\x1b[m\x1b[K:\n'}
+[4.514656] (witmotion_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/nuc11/imu_ws/witmotion_ros/witmotion-uart-qt/include/witmotion/version.h:4:26:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kconst string witmotion::library_version()\x1b[m\x1b[K\xe2\x80\x99 defined but not used [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-function\x07-Wunused-function\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[4.514761] (witmotion_ros) StderrLine: {'line': b'    4 | static const std::string \x1b[01;35m\x1b[Klibrary_version\x1b[m\x1b[K()\n'}
+[4.514839] (witmotion_ros) StderrLine: {'line': b'      |                          \x1b[01;35m\x1b[K^~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.515841] (-) TimerEvent: {}
+[4.616171] (-) TimerEvent: {}
+[4.716706] (-) TimerEvent: {}
+[4.817144] (-) TimerEvent: {}
+[4.917565] (-) TimerEvent: {}
+[5.002625] (witmotion_ros) StdoutLine: {'line': b'[ 22%] \x1b[32m\x1b[1mLinking CXX executable wt31n-calibration\x1b[0m\n'}
+[5.002874] (witmotion_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/nuc11/imu_ws/witmotion_ros/witmotion-uart-qt/examples/wt31n/witmotion-wt31n-uart-test.cpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kvoid handle_shutdown(int)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[5.003020] (witmotion_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/nuc11/imu_ws/witmotion_ros/witmotion-uart-qt/examples/wt31n/witmotion-wt31n-uart-test.cpp:253:26:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Ks\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[5.003149] (witmotion_ros) StderrLine: {'line': b'  253 | void handle_shutdown(\x1b[01;35m\x1b[Kint s\x1b[m\x1b[K)\n'}
+[5.003247] (witmotion_ros) StderrLine: {'line': b'      |                      \x1b[01;35m\x1b[K~~~~^\x1b[m\x1b[K\n'}
+[5.017717] (-) TimerEvent: {}
+[5.067073] (witmotion-uart-qt) StdoutLine: {'line': b'[ 57%] \x1b[32m\x1b[1mLinking CXX executable message-enumerator\x1b[0m\n'}
+[5.117864] (-) TimerEvent: {}
+[5.145225] (witmotion_ros) StdoutLine: {'line': b'[ 22%] Built target wt31n-calibration\n'}
+[5.170517] (witmotion_ros) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/nuc11/imu_ws/witmotion_ros/witmotion-uart-qt/include/witmotion/types.h:18\x1b[m\x1b[K,\n'}
+[5.170781] (witmotion_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/nuc11/imu_ws/witmotion_ros/witmotion-uart-qt/include/witmotion/serial.h:4\x1b[m\x1b[K,\n'}
+[5.170886] (witmotion_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/nuc11/imu_ws/witmotion_ros/witmotion-uart-qt/src/serial.cpp:1\x1b[m\x1b[K:\n'}
+[5.170994] (witmotion_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/nuc11/imu_ws/witmotion_ros/witmotion-uart-qt/include/witmotion/version.h:4:26:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kconst string witmotion::library_version()\x1b[m\x1b[K\xe2\x80\x99 defined but not used [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-function\x07-Wunused-function\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[5.171115] (witmotion_ros) StderrLine: {'line': b'    4 | static const std::string \x1b[01;35m\x1b[Klibrary_version\x1b[m\x1b[K()\n'}
+[5.171203] (witmotion_ros) StderrLine: {'line': b'      |                          \x1b[01;35m\x1b[K^~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.218094] (-) TimerEvent: {}
+[5.239250] (witmotion-uart-qt) StdoutLine: {'line': b'[ 57%] Built target message-enumerator\n'}
+[5.244226] (witmotion-uart-qt) StdoutLine: {'line': b'[ 59%] \x1b[32m\x1b[1mLinking CXX shared library libwitmotion-wt31n.so\x1b[0m\n'}
+[5.288264] (witmotion_ros) StdoutLine: {'line': b'[ 23%] \x1b[32m\x1b[1mLinking CXX executable wt31n-standalone-decoder\x1b[0m\n'}
+[5.296866] (witmotion-uart-qt) StdoutLine: {'line': b'[ 61%] \x1b[32m\x1b[1mLinking CXX shared library libwitmotion-wt901.so\x1b[0m\n'}
+[5.318245] (-) TimerEvent: {}
+[5.355260] (witmotion-uart-qt) StdoutLine: {'line': b'[ 61%] Built target witmotion-wt31n\n'}
+[5.367940] (witmotion_ros) StdoutLine: {'line': b'[ 25%] \x1b[32m\x1b[1mLinking CXX shared library libwitmotion-uart.so\x1b[0m\n'}
+[5.374327] (witmotion-uart-qt) StdoutLine: {'line': b'[ 63%] \x1b[34m\x1b[1mAutomatic MOC for target witmotionctl-wt31n\x1b[0m\n'}
+[5.406447] (witmotion-uart-qt) StdoutLine: {'line': b'[ 63%] Built target witmotionctl-wt31n_autogen\n'}
+[5.418359] (-) TimerEvent: {}
+[5.421719] (witmotion-uart-qt) StdoutLine: {'line': b'[ 63%] Built target witmotion-wt901\n'}
+[5.423549] (witmotion-uart-qt) StdoutLine: {'line': b'[ 66%] \x1b[32mBuilding CXX object CMakeFiles/witmotionctl-wt31n.dir/include/witmotion/moc_wt31n-uart.cpp.o\x1b[0m\n'}
+[5.423776] (witmotion-uart-qt) StdoutLine: {'line': b'[ 66%] \x1b[32mBuilding CXX object CMakeFiles/witmotionctl-wt31n.dir/src/wt31n-control.cpp.o\x1b[0m\n'}
+[5.423874] (witmotion-uart-qt) StdoutLine: {'line': b'[ 68%] \x1b[32mBuilding CXX object CMakeFiles/witmotionctl-wt31n.dir/witmotionctl-wt31n_autogen/mocs_compilation.cpp.o\x1b[0m\n'}
+[5.435230] (witmotion_ros) StdoutLine: {'line': b'[ 25%] Built target wt31n-standalone-decoder\n'}
+[5.437757] (witmotion-uart-qt) StdoutLine: {'line': b'[ 70%] \x1b[34m\x1b[1mAutomatic MOC for target witmotionctl-wt901\x1b[0m\n'}
+[5.440755] (witmotion-uart-qt) StdoutLine: {'line': b'[ 71%] \x1b[34m\x1b[1mAutomatic MOC for target witmotion-jy901\x1b[0m\n'}
+[5.465345] (witmotion-uart-qt) StdoutLine: {'line': b'[ 71%] Built target witmotionctl-wt901_autogen\n'}
+[5.468656] (witmotion-uart-qt) StdoutLine: {'line': b'[ 71%] Built target witmotion-jy901_autogen\n'}
+[5.483270] (witmotion-uart-qt) StdoutLine: {'line': b'[ 73%] \x1b[32mBuilding CXX object CMakeFiles/witmotionctl-wt901.dir/include/witmotion/moc_wt901-uart.cpp.o\x1b[0m\n'}
+[5.485358] (witmotion-uart-qt) StdoutLine: {'line': b'[ 77%] \x1b[32mBuilding CXX object CMakeFiles/witmotionctl-wt901.dir/src/wt901-control.cpp.o\x1b[0m\n'}
+[5.485563] (witmotion-uart-qt) StdoutLine: {'line': b'[ 77%] \x1b[32mBuilding CXX object CMakeFiles/witmotionctl-wt901.dir/witmotionctl-wt901_autogen/mocs_compilation.cpp.o\x1b[0m\n'}
+[5.488306] (witmotion-uart-qt) StdoutLine: {'line': b'[ 78%] \x1b[32mBuilding CXX object CMakeFiles/witmotion-jy901.dir/src/jy901-uart.cpp.o\x1b[0m\n'}
+[5.489472] (witmotion-uart-qt) StdoutLine: {'line': b'[ 80%] \x1b[32mBuilding CXX object CMakeFiles/witmotion-jy901.dir/witmotion-jy901_autogen/mocs_compilation.cpp.o\x1b[0m\n'}
+[5.497266] (witmotion_ros) StdoutLine: {'line': b'[ 25%] Built target witmotion-uart\n'}
+[5.513254] (witmotion_ros) StdoutLine: {'line': b'[ 26%] \x1b[34m\x1b[1mAutomatic MOC for target message-enumerator\x1b[0m\n'}
+[5.518505] (-) TimerEvent: {}
+[5.519743] (witmotion_ros) StdoutLine: {'line': b'[ 28%] \x1b[34m\x1b[1mAutomatic MOC for target witmotion-wt31n\x1b[0m\n'}
+[5.519947] (witmotion_ros) StdoutLine: {'line': b'[ 31%] \x1b[34m\x1b[1mAutomatic MOC for target witmotion_ros\x1b[0m\n'}
+[5.520068] (witmotion_ros) StdoutLine: {'line': b'[ 31%] \x1b[34m\x1b[1mAutomatic MOC for target witmotion-wt901\x1b[0m\n'}
+[5.544056] (witmotion_ros) StdoutLine: {'line': b'[ 31%] Built target message-enumerator_autogen\n'}
+[5.549788] (witmotion_ros) StdoutLine: {'line': b'[ 31%] Built target witmotion_ros_autogen\n'}
+[5.550982] (witmotion_ros) StdoutLine: {'line': b'[ 31%] Built target witmotion-wt901_autogen\n'}
+[5.551629] (witmotion_ros) StdoutLine: {'line': b'[ 32%] \x1b[34m\x1b[1mGenerating include/witmotion/moc_message-enumerator.cpp\x1b[0m\n'}
+[5.553312] (witmotion_ros) StdoutLine: {'line': b'[ 32%] Built target witmotion-wt31n_autogen\n'}
+[5.558310] (witmotion_ros) StdoutLine: {'line': b'[ 34%] \x1b[34m\x1b[1mGenerating include/moc_witmotion_ros.cpp\x1b[0m\n'}
+[5.558578] (witmotion_ros) StdoutLine: {'line': b'[ 35%] \x1b[34m\x1b[1mGenerating include/witmotion/moc_wt901-uart.cpp\x1b[0m\n'}
+[5.563711] (witmotion_ros) StdoutLine: {'line': b'[ 37%] \x1b[34m\x1b[1mGenerating include/witmotion/moc_wt31n-uart.cpp\x1b[0m\n'}
+[5.578037] (witmotion_ros) StdoutLine: {'line': b'[ 40%] \x1b[32mBuilding CXX object witmotion-uart-qt/CMakeFiles/witmotion-wt901.dir/witmotion-wt901_autogen/mocs_compilation.cpp.o\x1b[0m\n'}
+[5.578297] (witmotion_ros) StdoutLine: {'line': b'[ 40%] \x1b[32mBuilding CXX object witmotion-uart-qt/CMakeFiles/message-enumerator.dir/message-enumerator_autogen/mocs_compilation.cpp.o\x1b[0m\n'}
+[5.578399] (witmotion_ros) StdoutLine: {'line': b'[ 41%] \x1b[32mBuilding CXX object witmotion-uart-qt/CMakeFiles/message-enumerator.dir/include/witmotion/moc_message-enumerator.cpp.o\x1b[0m\n'}
+[5.579285] (witmotion_ros) StdoutLine: {'line': b'[ 43%] \x1b[32mBuilding CXX object witmotion-uart-qt/CMakeFiles/message-enumerator.dir/src/message-enumerator.cpp.o\x1b[0m\n'}
+[5.579437] (witmotion_ros) StdoutLine: {'line': b'[ 44%] \x1b[32mBuilding CXX object witmotion-uart-qt/CMakeFiles/witmotion-wt901.dir/src/wt901-uart.cpp.o\x1b[0m\n'}
+[5.579565] (witmotion_ros) StdoutLine: {'line': b'[ 47%] \x1b[32mBuilding CXX object witmotion-uart-qt/CMakeFiles/witmotion-wt901.dir/include/witmotion/moc_wt901-uart.cpp.o\x1b[0m\n'}
+[5.579644] (witmotion_ros) StdoutLine: {'line': b'[ 47%] \x1b[32mBuilding CXX object CMakeFiles/witmotion_ros.dir/witmotion_ros_autogen/mocs_compilation.cpp.o\x1b[0m\n'}
+[5.579823] (witmotion_ros) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/witmotion_ros.dir/include/moc_witmotion_ros.cpp.o\x1b[0m\n'}
+[5.579968] (witmotion_ros) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/witmotion_ros.dir/src/witmotion_ros.cpp.o\x1b[0m\n'}
+[5.591615] (witmotion_ros) StdoutLine: {'line': b'[ 52%] \x1b[32mBuilding CXX object witmotion-uart-qt/CMakeFiles/witmotion-wt31n.dir/include/witmotion/moc_wt31n-uart.cpp.o\x1b[0m\n'}
+[5.591901] (witmotion_ros) StdoutLine: {'line': b'[ 53%] \x1b[32mBuilding CXX object witmotion-uart-qt/CMakeFiles/witmotion-wt31n.dir/witmotion-wt31n_autogen/mocs_compilation.cpp.o\x1b[0m\n'}
+[5.592044] (witmotion_ros) StdoutLine: {'line': b'[ 55%] \x1b[32mBuilding CXX object witmotion-uart-qt/CMakeFiles/witmotion-wt31n.dir/src/wt31n-uart.cpp.o\x1b[0m\n'}
+[5.622034] (-) TimerEvent: {}
+[5.722428] (-) TimerEvent: {}
+[5.822830] (-) TimerEvent: {}
+[5.923267] (-) TimerEvent: {}
+[6.023702] (-) TimerEvent: {}
+[6.124148] (-) TimerEvent: {}
+[6.224590] (-) TimerEvent: {}
+[6.325049] (-) TimerEvent: {}
+[6.425482] (-) TimerEvent: {}
+[6.529048] (-) TimerEvent: {}
+[6.629475] (-) TimerEvent: {}
+[6.729913] (-) TimerEvent: {}
+[6.830375] (-) TimerEvent: {}
+[6.937044] (-) TimerEvent: {}
+[7.041048] (-) TimerEvent: {}
+[7.066092] (witmotion_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/nuc11/imu_ws/witmotion_ros/witmotion-uart-qt/src/message-enumerator.cpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kvoid handle_shutdown(int)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[7.066468] (witmotion_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/nuc11/imu_ws/witmotion_ros/witmotion-uart-qt/src/message-enumerator.cpp:121:26:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Ks\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[7.066602] (witmotion_ros) StderrLine: {'line': b'  121 | void handle_shutdown(\x1b[01;35m\x1b[Kint s\x1b[m\x1b[K)\n'}
+[7.066695] (witmotion_ros) StderrLine: {'line': b'      |                      \x1b[01;35m\x1b[K~~~~^\x1b[m\x1b[K\n'}
+[7.142112] (-) TimerEvent: {}
+[7.242490] (-) TimerEvent: {}
+[7.325459] (witmotion_ros) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/nuc11/imu_ws/witmotion_ros/witmotion-uart-qt/include/witmotion/types.h:18\x1b[m\x1b[K,\n'}
+[7.325747] (witmotion_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/nuc11/imu_ws/witmotion_ros/witmotion-uart-qt/include/witmotion/serial.h:4\x1b[m\x1b[K,\n'}
+[7.325869] (witmotion_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/nuc11/imu_ws/witmotion_ros/witmotion-uart-qt/include/witmotion/message-enumerator.h:17\x1b[m\x1b[K,\n'}
+[7.325982] (witmotion_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/nuc11/imu_ws/witmotion_ros/witmotion-uart-qt/src/message-enumerator.cpp:1\x1b[m\x1b[K:\n'}
+[7.326078] (witmotion_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/nuc11/imu_ws/witmotion_ros/witmotion-uart-qt/include/witmotion/version.h:\x1b[m\x1b[K At global scope:\n'}
+[7.326163] (witmotion_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/nuc11/imu_ws/witmotion_ros/witmotion-uart-qt/include/witmotion/version.h:4:26:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kconst string witmotion::library_version()\x1b[m\x1b[K\xe2\x80\x99 defined but not used [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-function\x07-Wunused-function\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[7.326279] (witmotion_ros) StderrLine: {'line': b'    4 | static const std::string \x1b[01;35m\x1b[Klibrary_version\x1b[m\x1b[K()\n'}
+[7.326368] (witmotion_ros) StderrLine: {'line': b'      |                          \x1b[01;35m\x1b[K^~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[7.342605] (-) TimerEvent: {}
+[7.442981] (-) TimerEvent: {}
+[7.495098] (witmotion_ros) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/nuc11/imu_ws/witmotion_ros/witmotion-uart-qt/include/witmotion/types.h:18\x1b[m\x1b[K,\n'}
+[7.495325] (witmotion_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/nuc11/imu_ws/build/witmotion_ros/witmotion-uart-qt/include/witmotion/../../../../../witmotion_ros/witmotion-uart-qt/include/witmotion/wt31n-uart.h:12\x1b[m\x1b[K,\n'}
+[7.495448] (witmotion_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/nuc11/imu_ws/build/witmotion_ros/witmotion-uart-qt/include/witmotion/moc_wt31n-uart.cpp:10\x1b[m\x1b[K:\n'}
+[7.495540] (witmotion_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/nuc11/imu_ws/witmotion_ros/witmotion-uart-qt/include/witmotion/version.h:4:26:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kconst string witmotion::library_version()\x1b[m\x1b[K\xe2\x80\x99 defined but not used [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-function\x07-Wunused-function\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[7.495627] (witmotion_ros) StderrLine: {'line': b'    4 | static const std::string \x1b[01;35m\x1b[Klibrary_version\x1b[m\x1b[K()\n'}
+[7.495705] (witmotion_ros) StderrLine: {'line': b'      |                          \x1b[01;35m\x1b[K^~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[7.543098] (-) TimerEvent: {}
+[7.643469] (-) TimerEvent: {}
+[7.743846] (-) TimerEvent: {}
+[7.773276] (witmotion_ros) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/nuc11/imu_ws/witmotion_ros/witmotion-uart-qt/include/witmotion/types.h:18\x1b[m\x1b[K,\n'}
+[7.773528] (witmotion_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/nuc11/imu_ws/witmotion_ros/witmotion-uart-qt/include/witmotion/wt31n-uart.h:12\x1b[m\x1b[K,\n'}
+[7.773635] (witmotion_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/nuc11/imu_ws/witmotion_ros/witmotion-uart-qt/src/wt31n-uart.cpp:1\x1b[m\x1b[K:\n'}
+[7.773717] (witmotion_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/nuc11/imu_ws/witmotion_ros/witmotion-uart-qt/include/witmotion/version.h:4:26:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kconst string witmotion::library_version()\x1b[m\x1b[K\xe2\x80\x99 defined but not used [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-function\x07-Wunused-function\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[7.773797] (witmotion_ros) StderrLine: {'line': b'    4 | static const std::string \x1b[01;35m\x1b[Klibrary_version\x1b[m\x1b[K()\n'}
+[7.773862] (witmotion_ros) StderrLine: {'line': b'      |                          \x1b[01;35m\x1b[K^~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[7.843972] (-) TimerEvent: {}
+[7.938324] (witmotion_ros) StdoutLine: {'line': b'[ 56%] \x1b[32m\x1b[1mLinking CXX shared library libwitmotion-wt31n.so\x1b[0m\n'}
+[7.944091] (-) TimerEvent: {}
+[8.044510] (-) TimerEvent: {}
+[8.079715] (witmotion_ros) StdoutLine: {'line': b'[ 56%] Built target witmotion-wt31n\n'}
+[8.109941] (witmotion_ros) StdoutLine: {'line': b'[ 58%] \x1b[34m\x1b[1mAutomatic MOC for target witmotionctl-wt31n\x1b[0m\n'}
+[8.144634] (-) TimerEvent: {}
+[8.153028] (witmotion_ros) StdoutLine: {'line': b'[ 58%] Built target witmotionctl-wt31n_autogen\n'}
+[8.179601] (witmotion_ros) StdoutLine: {'line': b'[ 59%] \x1b[32mBuilding CXX object witmotion-uart-qt/CMakeFiles/witmotionctl-wt31n.dir/src/wt31n-control.cpp.o\x1b[0m\n'}
+[8.180616] (witmotion_ros) StdoutLine: {'line': b'[ 61%] \x1b[32mBuilding CXX object witmotion-uart-qt/CMakeFiles/witmotionctl-wt31n.dir/include/witmotion/moc_wt31n-uart.cpp.o\x1b[0m\n'}
+[8.181517] (witmotion_ros) StdoutLine: {'line': b'[ 62%] \x1b[32mBuilding CXX object witmotion-uart-qt/CMakeFiles/witmotionctl-wt31n.dir/witmotionctl-wt31n_autogen/mocs_compilation.cpp.o\x1b[0m\n'}
+[8.186973] (witmotion_ros) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/nuc11/imu_ws/witmotion_ros/witmotion-uart-qt/include/witmotion/types.h:18\x1b[m\x1b[K,\n'}
+[8.187190] (witmotion_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/nuc11/imu_ws/build/witmotion_ros/witmotion-uart-qt/include/witmotion/../../../../../witmotion_ros/witmotion-uart-qt/include/witmotion/wt901-uart.h:14\x1b[m\x1b[K,\n'}
+[8.187280] (witmotion_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/nuc11/imu_ws/build/witmotion_ros/witmotion-uart-qt/include/witmotion/moc_wt901-uart.cpp:10\x1b[m\x1b[K:\n'}
+[8.187377] (witmotion_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/nuc11/imu_ws/witmotion_ros/witmotion-uart-qt/include/witmotion/version.h:4:26:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kconst string witmotion::library_version()\x1b[m\x1b[K\xe2\x80\x99 defined but not used [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-function\x07-Wunused-function\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[8.187457] (witmotion_ros) StderrLine: {'line': b'    4 | static const std::string \x1b[01;35m\x1b[Klibrary_version\x1b[m\x1b[K()\n'}
+[8.187525] (witmotion_ros) StderrLine: {'line': b'      |                          \x1b[01;35m\x1b[K^~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[8.244752] (-) TimerEvent: {}
+[8.345091] (-) TimerEvent: {}
+[8.401308] (witmotion_ros) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/nuc11/imu_ws/witmotion_ros/witmotion-uart-qt/include/witmotion/types.h:18\x1b[m\x1b[K,\n'}
+[8.401538] (witmotion_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/nuc11/imu_ws/witmotion_ros/witmotion-uart-qt/include/witmotion/wt901-uart.h:14\x1b[m\x1b[K,\n'}
+[8.401643] (witmotion_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/nuc11/imu_ws/witmotion_ros/witmotion-uart-qt/src/wt901-uart.cpp:1\x1b[m\x1b[K:\n'}
+[8.401730] (witmotion_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/nuc11/imu_ws/witmotion_ros/witmotion-uart-qt/include/witmotion/version.h:4:26:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kconst string witmotion::library_version()\x1b[m\x1b[K\xe2\x80\x99 defined but not used [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-function\x07-Wunused-function\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[8.401841] (witmotion_ros) StderrLine: {'line': b'    4 | static const std::string \x1b[01;35m\x1b[Klibrary_version\x1b[m\x1b[K()\n'}
+[8.401930] (witmotion_ros) StderrLine: {'line': b'      |                          \x1b[01;35m\x1b[K^~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[8.445218] (-) TimerEvent: {}
+[8.464373] (witmotion-uart-qt) StdoutLine: {'line': b'[ 82%] \x1b[32m\x1b[1mLinking CXX executable witmotionctl-wt901\x1b[0m\n'}
+[8.469320] (witmotion_ros) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/nuc11/imu_ws/witmotion_ros/witmotion-uart-qt/include/witmotion/types.h:18\x1b[m\x1b[K,\n'}
+[8.469591] (witmotion_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/nuc11/imu_ws/witmotion_ros/witmotion-uart-qt/include/witmotion/serial.h:4\x1b[m\x1b[K,\n'}
+[8.469717] (witmotion_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/nuc11/imu_ws/build/witmotion_ros/witmotion-uart-qt/include/witmotion/../../../../../witmotion_ros/witmotion-uart-qt/include/witmotion/message-enumerator.h:17\x1b[m\x1b[K,\n'}
+[8.469825] (witmotion_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/nuc11/imu_ws/build/witmotion_ros/witmotion-uart-qt/include/witmotion/moc_message-enumerator.cpp:10\x1b[m\x1b[K:\n'}
+[8.469929] (witmotion_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/nuc11/imu_ws/witmotion_ros/witmotion-uart-qt/include/witmotion/version.h:4:26:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kconst string witmotion::library_version()\x1b[m\x1b[K\xe2\x80\x99 defined but not used [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-function\x07-Wunused-function\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[8.470058] (witmotion_ros) StderrLine: {'line': b'    4 | static const std::string \x1b[01;35m\x1b[Klibrary_version\x1b[m\x1b[K()\n'}
+[8.470165] (witmotion_ros) StderrLine: {'line': b'      |                          \x1b[01;35m\x1b[K^~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[8.511722] (witmotion-uart-qt) StdoutLine: {'line': b'[ 84%] \x1b[32m\x1b[1mLinking CXX shared library libwitmotion-jy901.so\x1b[0m\n'}
+[8.545351] (-) TimerEvent: {}
+[8.645795] (-) TimerEvent: {}
+[8.671520] (witmotion_ros) StdoutLine: {'line': b'[ 64%] \x1b[32m\x1b[1mLinking CXX executable message-enumerator\x1b[0m\n'}
+[8.703560] (witmotion_ros) StdoutLine: {'line': b'[ 65%] \x1b[32m\x1b[1mLinking CXX shared library libwitmotion-wt901.so\x1b[0m\n'}
+[8.722377] (witmotion-uart-qt) StdoutLine: {'line': b'[ 84%] Built target witmotion-jy901\n'}
+[8.745976] (-) TimerEvent: {}
+[8.753026] (witmotion-uart-qt) StdoutLine: {'line': b'[ 85%] \x1b[34m\x1b[1mAutomatic MOC for target witmotionctl-jy901\x1b[0m\n'}
+[8.759173] (witmotion-uart-qt) StdoutLine: {'line': b'[ 87%] \x1b[32m\x1b[1mLinking CXX executable witmotionctl-wt31n\x1b[0m\n'}
+[8.761080] (witmotion-uart-qt) StdoutLine: {'line': b'[ 89%] Built target witmotionctl-wt901\n'}
+[8.799167] (witmotion-uart-qt) StdoutLine: {'line': b'[ 89%] Built target witmotionctl-jy901_autogen\n'}
+[8.815192] (witmotion-uart-qt) StdoutLine: {'line': b'[ 91%] \x1b[34m\x1b[1mGenerating include/witmotion/moc_jy901-uart.cpp\x1b[0m\n'}
+[8.846104] (-) TimerEvent: {}
+[8.851439] (witmotion-uart-qt) StdoutLine: {'line': b'[ 96%] \x1b[32mBuilding CXX object CMakeFiles/witmotionctl-jy901.dir/include/witmotion/moc_jy901-uart.cpp.o\x1b[0m\n'}
+[8.851733] (witmotion-uart-qt) StdoutLine: {'line': b'[ 96%] \x1b[32mBuilding CXX object CMakeFiles/witmotionctl-jy901.dir/src/jy901-control.cpp.o\x1b[0m\n'}
+[8.851864] (witmotion-uart-qt) StdoutLine: {'line': b'[ 96%] \x1b[32mBuilding CXX object CMakeFiles/witmotionctl-jy901.dir/witmotionctl-jy901_autogen/mocs_compilation.cpp.o\x1b[0m\n'}
+[8.892780] (witmotion_ros) StdoutLine: {'line': b'[ 65%] Built target message-enumerator\n'}
+[8.938303] (witmotion_ros) StdoutLine: {'line': b'[ 65%] Built target witmotion-wt901\n'}
+[8.946215] (-) TimerEvent: {}
+[8.957201] (witmotion_ros) StdoutLine: {'line': b'[ 67%] \x1b[34m\x1b[1mAutomatic MOC for target witmotionctl-wt901\x1b[0m\n'}
+[8.964771] (witmotion_ros) StdoutLine: {'line': b'[ 68%] \x1b[34m\x1b[1mAutomatic MOC for target witmotion-jy901\x1b[0m\n'}
+[8.992247] (witmotion_ros) StdoutLine: {'line': b'[ 68%] Built target witmotionctl-wt901_autogen\n'}
+[8.994178] (witmotion_ros) StdoutLine: {'line': b'[ 68%] Built target witmotion-jy901_autogen\n'}
+[9.013957] (witmotion_ros) StdoutLine: {'line': b'[ 70%] \x1b[32mBuilding CXX object witmotion-uart-qt/CMakeFiles/witmotionctl-wt901.dir/witmotionctl-wt901_autogen/mocs_compilation.cpp.o\x1b[0m\n'}
+[9.017069] (witmotion_ros) StdoutLine: {'line': b'[ 71%] \x1b[32mBuilding CXX object witmotion-uart-qt/CMakeFiles/witmotionctl-wt901.dir/include/witmotion/moc_wt901-uart.cpp.o\x1b[0m\n'}
+[9.019892] (witmotion_ros) StdoutLine: {'line': b'[ 76%] \x1b[32mBuilding CXX object witmotion-uart-qt/CMakeFiles/witmotion-jy901.dir/witmotion-jy901_autogen/mocs_compilation.cpp.o\x1b[0m\n'}
+[9.020126] (witmotion_ros) StdoutLine: {'line': b'[ 76%] \x1b[32mBuilding CXX object witmotion-uart-qt/CMakeFiles/witmotionctl-wt901.dir/src/wt901-control.cpp.o\x1b[0m\n'}
+[9.020221] (witmotion_ros) StdoutLine: {'line': b'[ 76%] \x1b[32mBuilding CXX object witmotion-uart-qt/CMakeFiles/witmotion-jy901.dir/src/jy901-uart.cpp.o\x1b[0m\n'}
+[9.046334] (-) TimerEvent: {}
+[9.047306] (witmotion-uart-qt) StdoutLine: {'line': b'[ 98%] Built target witmotionctl-wt31n\n'}
+[9.146465] (-) TimerEvent: {}
+[9.246815] (-) TimerEvent: {}
+[9.347180] (-) TimerEvent: {}
+[9.446746] (witmotion_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/nuc11/imu_ws/witmotion_ros/witmotion-uart-qt/src/wt31n-control.cpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kvoid handle_shutdown(int)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[9.446982] (witmotion_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/nuc11/imu_ws/witmotion_ros/witmotion-uart-qt/src/wt31n-control.cpp:31:26:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Ks\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[9.447085] (witmotion_ros) StderrLine: {'line': b'   31 | void handle_shutdown(\x1b[01;35m\x1b[Kint s\x1b[m\x1b[K)\n'}
+[9.447170] (-) TimerEvent: {}
+[9.447295] (witmotion_ros) StderrLine: {'line': b'      |                      \x1b[01;35m\x1b[K~~~~^\x1b[m\x1b[K\n'}
+[9.547305] (-) TimerEvent: {}
+[9.647665] (-) TimerEvent: {}
+[9.748024] (-) TimerEvent: {}
+[9.848375] (-) TimerEvent: {}
+[9.948713] (-) TimerEvent: {}
+[10.049032] (-) TimerEvent: {}
+[10.149371] (-) TimerEvent: {}
+[10.249703] (-) TimerEvent: {}
+[10.341113] (witmotion_ros) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/nuc11/imu_ws/witmotion_ros/witmotion-uart-qt/include/witmotion/types.h:18\x1b[m\x1b[K,\n'}
+[10.341295] (witmotion_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/nuc11/imu_ws/build/witmotion_ros/witmotion-uart-qt/include/witmotion/../../../../../witmotion_ros/witmotion-uart-qt/include/witmotion/wt901-uart.h:14\x1b[m\x1b[K,\n'}
+[10.341349] (witmotion_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/nuc11/imu_ws/build/witmotion_ros/witmotion-uart-qt/include/witmotion/moc_wt901-uart.cpp:10\x1b[m\x1b[K:\n'}
+[10.341392] (witmotion_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/nuc11/imu_ws/witmotion_ros/witmotion-uart-qt/include/witmotion/version.h:4:26:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kconst string witmotion::library_version()\x1b[m\x1b[K\xe2\x80\x99 defined but not used [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-function\x07-Wunused-function\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[10.341437] (witmotion_ros) StderrLine: {'line': b'    4 | static const std::string \x1b[01;35m\x1b[Klibrary_version\x1b[m\x1b[K()\n'}
+[10.341476] (witmotion_ros) StderrLine: {'line': b'      |                          \x1b[01;35m\x1b[K^~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[10.342301] (witmotion_ros) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/nuc11/imu_ws/witmotion_ros/witmotion-uart-qt/include/witmotion/types.h:18\x1b[m\x1b[K,\n'}
+[10.342414] (witmotion_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/nuc11/imu_ws/build/witmotion_ros/witmotion-uart-qt/include/witmotion/../../../../../witmotion_ros/witmotion-uart-qt/include/witmotion/wt31n-uart.h:12\x1b[m\x1b[K,\n'}
+[10.342464] (witmotion_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/nuc11/imu_ws/build/witmotion_ros/witmotion-uart-qt/include/witmotion/moc_wt31n-uart.cpp:10\x1b[m\x1b[K:\n'}
+[10.342516] (witmotion_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/nuc11/imu_ws/witmotion_ros/witmotion-uart-qt/include/witmotion/version.h:4:26:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kconst string witmotion::library_version()\x1b[m\x1b[K\xe2\x80\x99 defined but not used [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-function\x07-Wunused-function\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[10.342561] (witmotion_ros) StderrLine: {'line': b'    4 | static const std::string \x1b[01;35m\x1b[Klibrary_version\x1b[m\x1b[K()\n'}
+[10.342601] (witmotion_ros) StderrLine: {'line': b'      |                          \x1b[01;35m\x1b[K^~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[10.349851] (-) TimerEvent: {}
+[10.450214] (-) TimerEvent: {}
+[10.515534] (witmotion_ros) StdoutLine: {'line': b'[ 77%] \x1b[32m\x1b[1mLinking CXX executable witmotionctl-wt31n\x1b[0m\n'}
+[10.550333] (-) TimerEvent: {}
+[10.637570] (witmotion_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/nuc11/imu_ws/witmotion_ros/witmotion-uart-qt/src/wt901-control.cpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kvoid handle_shutdown(int)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[10.637820] (witmotion_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/nuc11/imu_ws/witmotion_ros/witmotion-uart-qt/src/wt901-control.cpp:22:26:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Ks\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[10.637932] (witmotion_ros) StderrLine: {'line': b'   22 | void handle_shutdown(\x1b[01;35m\x1b[Kint s\x1b[m\x1b[K)\n'}
+[10.638058] (witmotion_ros) StderrLine: {'line': b'      |                      \x1b[01;35m\x1b[K~~~~^\x1b[m\x1b[K\n'}
+[10.650450] (-) TimerEvent: {}
+[10.750871] (-) TimerEvent: {}
+[10.773014] (witmotion_ros) StdoutLine: {'line': b'[ 79%] Built target witmotionctl-wt31n\n'}
+[10.851028] (-) TimerEvent: {}
+[10.920237] (witmotion-uart-qt) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable witmotionctl-jy901\x1b[0m\n'}
+[10.950213] (witmotion_ros) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/nuc11/imu_ws/witmotion_ros/witmotion-uart-qt/include/witmotion/types.h:18\x1b[m\x1b[K,\n'}
+[10.950464] (witmotion_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/nuc11/imu_ws/witmotion_ros/witmotion-uart-qt/include/witmotion/jy901-uart.h:13\x1b[m\x1b[K,\n'}
+[10.950558] (witmotion_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/nuc11/imu_ws/witmotion_ros/witmotion-uart-qt/src/jy901-uart.cpp:1\x1b[m\x1b[K:\n'}
+[10.950646] (witmotion_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/nuc11/imu_ws/witmotion_ros/witmotion-uart-qt/include/witmotion/version.h:4:26:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kconst string witmotion::library_version()\x1b[m\x1b[K\xe2\x80\x99 defined but not used [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-function\x07-Wunused-function\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[10.950756] (witmotion_ros) StderrLine: {'line': b'    4 | static const std::string \x1b[01;35m\x1b[Klibrary_version\x1b[m\x1b[K()\n'}
+[10.950839] (witmotion_ros) StderrLine: {'line': b'      |                          \x1b[01;35m\x1b[K^~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[10.951088] (-) TimerEvent: {}
+[11.051477] (-) TimerEvent: {}
+[11.092219] (witmotion_ros) StdoutLine: {'line': b'[ 80%] \x1b[32m\x1b[1mLinking CXX shared library libwitmotion-jy901.so\x1b[0m\n'}
+[11.151716] (-) TimerEvent: {}
+[11.169766] (witmotion-uart-qt) StdoutLine: {'line': b'[100%] Built target witmotionctl-jy901\n'}
+[11.185414] (witmotion-uart-qt) CommandEnded: {'returncode': 0}
+[11.195908] (witmotion-uart-qt) JobEnded: {'identifier': 'witmotion-uart-qt', 'rc': 0}
+[11.210823] (witmotion_ros) StdoutLine: {'line': b'[ 80%] Built target witmotion-jy901\n'}
+[11.233276] (witmotion_ros) StdoutLine: {'line': b'[ 82%] \x1b[34m\x1b[1mAutomatic MOC for target witmotionctl-jy901\x1b[0m\n'}
+[11.251827] (-) TimerEvent: {}
+[11.262975] (witmotion_ros) StdoutLine: {'line': b'[ 82%] Built target witmotionctl-jy901_autogen\n'}
+[11.274551] (witmotion_ros) StdoutLine: {'line': b'[ 83%] \x1b[34m\x1b[1mGenerating include/witmotion/moc_jy901-uart.cpp\x1b[0m\n'}
+[11.298194] (witmotion_ros) StdoutLine: {'line': b'[ 85%] \x1b[32mBuilding CXX object witmotion-uart-qt/CMakeFiles/witmotionctl-jy901.dir/src/jy901-control.cpp.o\x1b[0m\n'}
+[11.299369] (witmotion_ros) StdoutLine: {'line': b'[ 86%] \x1b[32mBuilding CXX object witmotion-uart-qt/CMakeFiles/witmotionctl-jy901.dir/witmotionctl-jy901_autogen/mocs_compilation.cpp.o\x1b[0m\n'}
+[11.299498] (witmotion_ros) StdoutLine: {'line': b'[ 88%] \x1b[32mBuilding CXX object witmotion-uart-qt/CMakeFiles/witmotionctl-jy901.dir/include/witmotion/moc_jy901-uart.cpp.o\x1b[0m\n'}
+[11.317649] (witmotion_ros) StdoutLine: {'line': b'[ 89%] \x1b[32m\x1b[1mLinking CXX executable witmotionctl-wt901\x1b[0m\n'}
+[11.351981] (-) TimerEvent: {}
+[11.452326] (-) TimerEvent: {}
+[11.466281] (witmotion_ros) StdoutLine: {'line': b'[ 91%] Built target witmotionctl-wt901\n'}
+[11.552559] (-) TimerEvent: {}
+[11.653009] (-) TimerEvent: {}
+[11.732587] (witmotion_ros) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/nuc11/imu_ws/witmotion_ros/witmotion-uart-qt/include/witmotion/types.h:18\x1b[m\x1b[K,\n'}
+[11.732819] (witmotion_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/nuc11/imu_ws/build/witmotion_ros/include/../../../witmotion_ros/include/witmotion_ros.h:11\x1b[m\x1b[K,\n'}
+[11.732911] (witmotion_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/nuc11/imu_ws/build/witmotion_ros/include/moc_witmotion_ros.cpp:10\x1b[m\x1b[K:\n'}
+[11.733030] (witmotion_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/nuc11/imu_ws/witmotion_ros/witmotion-uart-qt/include/witmotion/version.h:4:26:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kconst string witmotion::library_version()\x1b[m\x1b[K\xe2\x80\x99 defined but not used [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-function\x07-Wunused-function\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[11.733117] (witmotion_ros) StderrLine: {'line': b'    4 | static const std::string \x1b[01;35m\x1b[Klibrary_version\x1b[m\x1b[K()\n'}
+[11.733194] (witmotion_ros) StderrLine: {'line': b'      |                          \x1b[01;35m\x1b[K^~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[11.753147] (-) TimerEvent: {}
+[11.853569] (-) TimerEvent: {}
+[11.954004] (-) TimerEvent: {}
+[12.054411] (-) TimerEvent: {}
+[12.154824] (-) TimerEvent: {}
+[12.255112] (-) TimerEvent: {}
+[12.302860] (witmotion_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/nuc11/imu_ws/witmotion_ros/witmotion-uart-qt/src/jy901-control.cpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kvoid handle_shutdown(int)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[12.303071] (witmotion_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/nuc11/imu_ws/witmotion_ros/witmotion-uart-qt/src/jy901-control.cpp:22:26:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Ks\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[12.303157] (witmotion_ros) StderrLine: {'line': b'   22 | void handle_shutdown(\x1b[01;35m\x1b[Kint s\x1b[m\x1b[K)\n'}
+[12.303242] (witmotion_ros) StderrLine: {'line': b'      |                      \x1b[01;35m\x1b[K~~~~^\x1b[m\x1b[K\n'}
+[12.355341] (-) TimerEvent: {}
+[12.376352] (witmotion_ros) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/nuc11/imu_ws/witmotion_ros/witmotion-uart-qt/include/witmotion/types.h:18\x1b[m\x1b[K,\n'}
+[12.376573] (witmotion_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/nuc11/imu_ws/build/witmotion_ros/witmotion-uart-qt/include/witmotion/../../../../../witmotion_ros/witmotion-uart-qt/include/witmotion/jy901-uart.h:13\x1b[m\x1b[K,\n'}
+[12.376655] (witmotion_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/nuc11/imu_ws/build/witmotion_ros/witmotion-uart-qt/include/witmotion/moc_jy901-uart.cpp:10\x1b[m\x1b[K:\n'}
+[12.376725] (witmotion_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/nuc11/imu_ws/witmotion_ros/witmotion-uart-qt/include/witmotion/version.h:4:26:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kconst string witmotion::library_version()\x1b[m\x1b[K\xe2\x80\x99 defined but not used [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-function\x07-Wunused-function\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[12.376799] (witmotion_ros) StderrLine: {'line': b'    4 | static const std::string \x1b[01;35m\x1b[Klibrary_version\x1b[m\x1b[K()\n'}
+[12.376867] (witmotion_ros) StderrLine: {'line': b'      |                          \x1b[01;35m\x1b[K^~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[12.455478] (-) TimerEvent: {}
+[12.555870] (-) TimerEvent: {}
+[12.656164] (-) TimerEvent: {}
+[12.756572] (-) TimerEvent: {}
+[12.856965] (-) TimerEvent: {}
+[12.869460] (witmotion_ros) StdoutLine: {'line': b'[ 92%] \x1b[32m\x1b[1mLinking CXX executable witmotionctl-jy901\x1b[0m\n'}
+[12.957176] (-) TimerEvent: {}
+[12.985296] (witmotion_ros) StdoutLine: {'line': b'[ 92%] Built target witmotionctl-jy901\n'}
+[13.057393] (-) TimerEvent: {}
+[13.157778] (-) TimerEvent: {}
+[13.258135] (-) TimerEvent: {}
+[13.358505] (-) TimerEvent: {}
+[13.458887] (-) TimerEvent: {}
+[13.559293] (-) TimerEvent: {}
+[13.659660] (-) TimerEvent: {}
+[13.760042] (-) TimerEvent: {}
+[13.860431] (-) TimerEvent: {}
+[13.960805] (-) TimerEvent: {}
+[14.061201] (-) TimerEvent: {}
+[14.161598] (-) TimerEvent: {}
+[14.261981] (-) TimerEvent: {}
+[14.362341] (-) TimerEvent: {}
+[14.462727] (-) TimerEvent: {}
+[14.563120] (-) TimerEvent: {}
+[14.663495] (-) TimerEvent: {}
+[14.763855] (-) TimerEvent: {}
+[14.864242] (-) TimerEvent: {}
+[14.964664] (-) TimerEvent: {}
+[15.065066] (-) TimerEvent: {}
+[15.165476] (-) TimerEvent: {}
+[15.265767] (-) TimerEvent: {}
+[15.366156] (-) TimerEvent: {}
+[15.466552] (-) TimerEvent: {}
+[15.555691] (witmotion_ros) StdoutLine: {'line': b'[ 94%] \x1b[32m\x1b[1mLinking CXX static library libwitmotion_ros.a\x1b[0m\n'}
+[15.566765] (-) TimerEvent: {}
+[15.631701] (witmotion_ros) StdoutLine: {'line': b'[ 94%] Built target witmotion_ros\n'}
+[15.642937] (witmotion_ros) StdoutLine: {'line': b'[ 95%] \x1b[34m\x1b[1mAutomatic MOC for target witmotion_ros_node\x1b[0m\n'}
+[15.662215] (witmotion_ros) StdoutLine: {'line': b'[ 95%] Built target witmotion_ros_node_autogen\n'}
+[15.666874] (-) TimerEvent: {}
+[15.677287] (witmotion_ros) StdoutLine: {'line': b'[ 97%] \x1b[32mBuilding CXX object CMakeFiles/witmotion_ros_node.dir/witmotion_ros_node_autogen/mocs_compilation.cpp.o\x1b[0m\n'}
+[15.677536] (witmotion_ros) StdoutLine: {'line': b'[ 98%] \x1b[32mBuilding CXX object CMakeFiles/witmotion_ros_node.dir/src/witmotion_ros_node.cpp.o\x1b[0m\n'}
+[15.767100] (-) TimerEvent: {}
+[15.867481] (-) TimerEvent: {}
+[15.967917] (-) TimerEvent: {}
+[16.068313] (-) TimerEvent: {}
+[16.168679] (-) TimerEvent: {}
+[16.269137] (-) TimerEvent: {}
+[16.369395] (-) TimerEvent: {}
+[16.469615] (-) TimerEvent: {}
+[16.569861] (-) TimerEvent: {}
+[16.670111] (-) TimerEvent: {}
+[16.770368] (-) TimerEvent: {}
+[16.870607] (-) TimerEvent: {}
+[16.970861] (-) TimerEvent: {}
+[17.071114] (-) TimerEvent: {}
+[17.171358] (-) TimerEvent: {}
+[17.271591] (-) TimerEvent: {}
+[17.371832] (-) TimerEvent: {}
+[17.472088] (-) TimerEvent: {}
+[17.572327] (-) TimerEvent: {}
+[17.672596] (-) TimerEvent: {}
+[17.772854] (-) TimerEvent: {}
+[17.873131] (-) TimerEvent: {}
+[17.973346] (-) TimerEvent: {}
+[18.073572] (-) TimerEvent: {}
+[18.173819] (-) TimerEvent: {}
+[18.207989] (witmotion_ros) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/nuc11/imu_ws/witmotion_ros/witmotion-uart-qt/include/witmotion/types.h:18\x1b[m\x1b[K,\n'}
+[18.208126] (witmotion_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/nuc11/imu_ws/witmotion_ros/include/witmotion_ros.h:11\x1b[m\x1b[K,\n'}
+[18.208168] (witmotion_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/nuc11/imu_ws/witmotion_ros/src/witmotion_ros_node.cpp:1\x1b[m\x1b[K:\n'}
+[18.208192] (witmotion_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/nuc11/imu_ws/witmotion_ros/witmotion-uart-qt/include/witmotion/version.h:4:26:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kconst string witmotion::library_version()\x1b[m\x1b[K\xe2\x80\x99 defined but not used [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-function\x07-Wunused-function\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[18.208219] (witmotion_ros) StderrLine: {'line': b'    4 | static const std::string \x1b[01;35m\x1b[Klibrary_version\x1b[m\x1b[K()\n'}
+[18.208241] (witmotion_ros) StderrLine: {'line': b'      |                          \x1b[01;35m\x1b[K^~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[18.273913] (-) TimerEvent: {}
+[18.318107] (witmotion_ros) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable witmotion_ros_node\x1b[0m\n'}
+[18.374010] (-) TimerEvent: {}
+[18.474196] (-) TimerEvent: {}
+[18.574419] (-) TimerEvent: {}
+[18.674630] (-) TimerEvent: {}
+[18.774851] (-) TimerEvent: {}
+[18.875077] (-) TimerEvent: {}
+[18.917725] (witmotion_ros) StdoutLine: {'line': b'[100%] Built target witmotion_ros_node\n'}
+[18.927091] (witmotion_ros) CommandEnded: {'returncode': 0}
+[18.927502] (witmotion_ros) JobProgress: {'identifier': 'witmotion_ros', 'progress': 'install'}
+[18.932965] (witmotion_ros) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/nuc11/imu_ws/build/witmotion_ros'], 'cwd': '/home/nuc11/imu_ws/build/witmotion_ros', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:en'), ('USER', 'nuc11'), ('LC_TIME', 'en_US.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/nuc11'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'en_US.UTF-8'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1258'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=a770b99dc28de0557a7a09af67e5674e'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'nuc11'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'nuc11'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/nuc11-NUC13TZi7:@/tmp/.ICE-unix/1258,unix/nuc11-NUC13TZi7:/tmp/.ICE-unix/1258'), ('PAPERSIZE', 'letter'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'en_US.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/94caec70_58fc_42c2_b828_230f20b4ce2a'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'en_US.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.195732'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.99'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'en_US.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'en_US.UTF-8'), ('LC_IDENTIFICATION', 'en_US.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/nuc11/imu_ws/build/witmotion_ros'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=a770b99dc28de0557a7a09af67e5674e'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'en_US.UTF-8'), ('LC_PAPER', 'en_US.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[18.937463] (witmotion_ros) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[18.937609] (witmotion_ros) StdoutLine: {'line': b'-- Installing: /home/nuc11/imu_ws/install/witmotion_ros/share/witmotion_ros/environment/library_path.sh\n'}
+[18.937677] (witmotion_ros) StdoutLine: {'line': b'-- Installing: /home/nuc11/imu_ws/install/witmotion_ros/share/witmotion_ros/environment/library_path.dsv\n'}
+[18.937734] (witmotion_ros) StdoutLine: {'line': b'-- Installing: /home/nuc11/imu_ws/install/witmotion_ros/lib/libwitmotion-uart.so\n'}
+[18.937862] (witmotion_ros) StdoutLine: {'line': b'-- Installing: /home/nuc11/imu_ws/install/witmotion_ros/lib/libwitmotion_ros.a\n'}
+[18.941842] (witmotion_ros) StdoutLine: {'line': b'-- Installing: /home/nuc11/imu_ws/install/witmotion_ros/lib/witmotion_ros/witmotion_ros_node\n'}
+[18.943355] (witmotion_ros) StdoutLine: {'line': b'-- Set runtime path of "/home/nuc11/imu_ws/install/witmotion_ros/lib/witmotion_ros/witmotion_ros_node" to ""\n'}
+[18.943443] (witmotion_ros) StdoutLine: {'line': b'-- Installing: /home/nuc11/imu_ws/install/witmotion_ros/share/witmotion_ros/launch\n'}
+[18.943502] (witmotion_ros) StdoutLine: {'line': b'-- Installing: /home/nuc11/imu_ws/install/witmotion_ros/share/witmotion_ros/launch/yahboom10x.launch.py\n'}
+[18.943557] (witmotion_ros) StdoutLine: {'line': b'-- Installing: /home/nuc11/imu_ws/install/witmotion_ros/share/witmotion_ros/launch/wt901_launch.py\n'}
+[18.943610] (witmotion_ros) StdoutLine: {'line': b'-- Installing: /home/nuc11/imu_ws/install/witmotion_ros/share/witmotion_ros/launch/__pycache__\n'}
+[18.943661] (witmotion_ros) StdoutLine: {'line': b'-- Installing: /home/nuc11/imu_ws/install/witmotion_ros/share/witmotion_ros/launch/__pycache__/wt31n.cpython-310.pyc\n'}
+[18.943789] (witmotion_ros) StdoutLine: {'line': b'-- Installing: /home/nuc11/imu_ws/install/witmotion_ros/share/witmotion_ros/launch/wt905_launch.py\n'}
+[18.943879] (witmotion_ros) StdoutLine: {'line': b'-- Installing: /home/nuc11/imu_ws/install/witmotion_ros/share/witmotion_ros/launch/wt31n_launch.py\n'}
+[18.943928] (witmotion_ros) StdoutLine: {'line': b'-- Installing: /home/nuc11/imu_ws/install/witmotion_ros/share/witmotion_ros/launch/wt901.launch.py\n'}
+[18.944097] (witmotion_ros) StdoutLine: {'line': b'-- Installing: /home/nuc11/imu_ws/install/witmotion_ros/share/witmotion_ros/launch/witmotion_launch.py\n'}
+[18.944157] (witmotion_ros) StdoutLine: {'line': b'-- Installing: /home/nuc11/imu_ws/install/witmotion_ros/share/witmotion_ros/launch/wt31n.launch.py\n'}
+[18.944189] (witmotion_ros) StdoutLine: {'line': b'-- Installing: /home/nuc11/imu_ws/install/witmotion_ros/share/witmotion_ros/launch/wt61c.launch.py\n'}
+[18.944216] (witmotion_ros) StdoutLine: {'line': b'-- Installing: /home/nuc11/imu_ws/install/witmotion_ros/share/witmotion_ros/launch/yahboom10x_launch.py\n'}
+[18.944248] (witmotion_ros) StdoutLine: {'line': b'-- Installing: /home/nuc11/imu_ws/install/witmotion_ros/share/witmotion_ros/launch/wt61c_launch.py\n'}
+[18.944270] (witmotion_ros) StdoutLine: {'line': b'-- Installing: /home/nuc11/imu_ws/install/witmotion_ros/share/witmotion_ros/launch/witmotion.launch.py\n'}
+[18.944290] (witmotion_ros) StdoutLine: {'line': b'-- Installing: /home/nuc11/imu_ws/install/witmotion_ros/share/witmotion_ros/launch/wt905.launch.py\n'}
+[18.944313] (witmotion_ros) StdoutLine: {'line': b'-- Installing: /home/nuc11/imu_ws/install/witmotion_ros/share/witmotion_ros/config\n'}
+[18.944337] (witmotion_ros) StdoutLine: {'line': b'-- Installing: /home/nuc11/imu_ws/install/witmotion_ros/share/witmotion_ros/config/config.yml\n'}
+[18.944369] (witmotion_ros) StdoutLine: {'line': b'-- Installing: /home/nuc11/imu_ws/install/witmotion_ros/share/witmotion_ros/config/wt905.yml\n'}
+[18.944391] (witmotion_ros) StdoutLine: {'line': b'-- Installing: /home/nuc11/imu_ws/install/witmotion_ros/share/witmotion_ros/config/wt61c.yml\n'}
+[18.944414] (witmotion_ros) StdoutLine: {'line': b'-- Installing: /home/nuc11/imu_ws/install/witmotion_ros/share/witmotion_ros/config/wt901.yml\n'}
+[18.944436] (witmotion_ros) StdoutLine: {'line': b'-- Installing: /home/nuc11/imu_ws/install/witmotion_ros/share/witmotion_ros/config/yahboom10x.yml\n'}
+[18.944459] (witmotion_ros) StdoutLine: {'line': b'-- Installing: /home/nuc11/imu_ws/install/witmotion_ros/share/witmotion_ros/config/wt31n.yml\n'}
+[18.944498] (witmotion_ros) StdoutLine: {'line': b'-- Installing: /home/nuc11/imu_ws/install/witmotion_ros/share/ament_index/resource_index/package_run_dependencies/witmotion_ros\n'}
+[18.944523] (witmotion_ros) StdoutLine: {'line': b'-- Installing: /home/nuc11/imu_ws/install/witmotion_ros/share/ament_index/resource_index/parent_prefix_path/witmotion_ros\n'}
+[18.944557] (witmotion_ros) StdoutLine: {'line': b'-- Installing: /home/nuc11/imu_ws/install/witmotion_ros/share/witmotion_ros/environment/ament_prefix_path.sh\n'}
+[18.944593] (witmotion_ros) StdoutLine: {'line': b'-- Installing: /home/nuc11/imu_ws/install/witmotion_ros/share/witmotion_ros/environment/ament_prefix_path.dsv\n'}
+[18.944634] (witmotion_ros) StdoutLine: {'line': b'-- Installing: /home/nuc11/imu_ws/install/witmotion_ros/share/witmotion_ros/environment/path.sh\n'}
+[18.944673] (witmotion_ros) StdoutLine: {'line': b'-- Installing: /home/nuc11/imu_ws/install/witmotion_ros/share/witmotion_ros/environment/path.dsv\n'}
+[18.944713] (witmotion_ros) StdoutLine: {'line': b'-- Installing: /home/nuc11/imu_ws/install/witmotion_ros/share/witmotion_ros/local_setup.bash\n'}
+[18.944751] (witmotion_ros) StdoutLine: {'line': b'-- Installing: /home/nuc11/imu_ws/install/witmotion_ros/share/witmotion_ros/local_setup.sh\n'}
+[18.944793] (witmotion_ros) StdoutLine: {'line': b'-- Installing: /home/nuc11/imu_ws/install/witmotion_ros/share/witmotion_ros/local_setup.zsh\n'}
+[18.944831] (witmotion_ros) StdoutLine: {'line': b'-- Installing: /home/nuc11/imu_ws/install/witmotion_ros/share/witmotion_ros/local_setup.dsv\n'}
+[18.944868] (witmotion_ros) StdoutLine: {'line': b'-- Installing: /home/nuc11/imu_ws/install/witmotion_ros/share/witmotion_ros/package.dsv\n'}
+[18.944922] (witmotion_ros) StdoutLine: {'line': b'-- Installing: /home/nuc11/imu_ws/install/witmotion_ros/share/ament_index/resource_index/packages/witmotion_ros\n'}
+[18.944987] (witmotion_ros) StdoutLine: {'line': b'-- Installing: /home/nuc11/imu_ws/install/witmotion_ros/share/witmotion_ros/cmake/export_witmotion_rosExport.cmake\n'}
+[18.945281] (witmotion_ros) StdoutLine: {'line': b'-- Installing: /home/nuc11/imu_ws/install/witmotion_ros/share/witmotion_ros/cmake/export_witmotion_rosExport-noconfig.cmake\n'}
+[18.945319] (witmotion_ros) StdoutLine: {'line': b'-- Installing: /home/nuc11/imu_ws/install/witmotion_ros/share/witmotion_ros/cmake/export_witmotion-uartExport.cmake\n'}
+[18.945370] (witmotion_ros) StdoutLine: {'line': b'-- Installing: /home/nuc11/imu_ws/install/witmotion_ros/share/witmotion_ros/cmake/export_witmotion-uartExport-noconfig.cmake\n'}
+[18.945411] (witmotion_ros) StdoutLine: {'line': b'-- Installing: /home/nuc11/imu_ws/install/witmotion_ros/share/witmotion_ros/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[18.945451] (witmotion_ros) StdoutLine: {'line': b'-- Installing: /home/nuc11/imu_ws/install/witmotion_ros/share/witmotion_ros/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[18.945490] (witmotion_ros) StdoutLine: {'line': b'-- Installing: /home/nuc11/imu_ws/install/witmotion_ros/share/witmotion_ros/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[18.945531] (witmotion_ros) StdoutLine: {'line': b'-- Installing: /home/nuc11/imu_ws/install/witmotion_ros/share/witmotion_ros/cmake/witmotion_rosConfig.cmake\n'}
+[18.945564] (witmotion_ros) StdoutLine: {'line': b'-- Installing: /home/nuc11/imu_ws/install/witmotion_ros/share/witmotion_ros/cmake/witmotion_rosConfig-version.cmake\n'}
+[18.945604] (witmotion_ros) StdoutLine: {'line': b'-- Installing: /home/nuc11/imu_ws/install/witmotion_ros/share/witmotion_ros/package.xml\n'}
+[18.946946] (witmotion_ros) CommandEnded: {'returncode': 0}
+[18.956590] (witmotion_ros) JobEnded: {'identifier': 'witmotion_ros', 'rc': 0}
+[18.956967] (-) EventReactorShutdown: {}

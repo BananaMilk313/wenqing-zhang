@@ -1,0 +1,98 @@
+[  1%] [34m[1mAutomatic MOC for target wt31n-calibration[0m
+[  4%] [34m[1mAutomatic MOC for target witmotion-uart[0m
+[  4%] [34m[1mAutomatic MOC for target wt31n-standalone-decoder[0m
+[  4%] Built target wt31n-calibration_autogen
+[  4%] Built target witmotion-uart_autogen
+[  4%] Built target wt31n-standalone-decoder_autogen
+[35m[1mConsolidate compiler generated dependencies of target wt31n-calibration[0m
+[35m[1mConsolidate compiler generated dependencies of target witmotion-uart[0m
+[35m[1mConsolidate compiler generated dependencies of target wt31n-standalone-decoder[0m
+[  8%] Built target wt31n-calibration
+[ 13%] Built target wt31n-standalone-decoder
+[ 25%] Built target witmotion-uart
+[ 28%] [34m[1mAutomatic MOC for target witmotion-wt31n[0m
+[ 28%] [34m[1mAutomatic MOC for target message-enumerator[0m
+[ 29%] [34m[1mAutomatic MOC for target witmotion_ros[0m
+[ 31%] [34m[1mAutomatic MOC for target witmotion-wt901[0m
+[ 31%] Built target witmotion-wt901_autogen
+[ 31%] Built target message-enumerator_autogen
+[ 31%] Built target witmotion-wt31n_autogen
+[ 31%] Built target witmotion_ros_autogen
+[35m[1mConsolidate compiler generated dependencies of target witmotion-wt901[0m
+[35m[1mConsolidate compiler generated dependencies of target witmotion-wt31n[0m
+[35m[1mConsolidate compiler generated dependencies of target message-enumerator[0m
+[35m[1mConsolidate compiler generated dependencies of target witmotion_ros[0m
+[ 38%] Built target witmotion-wt31n
+[ 46%] Built target witmotion-wt901
+[ 53%] Built target message-enumerator
+[ 61%] Built target witmotion_ros
+[ 62%] [34m[1mAutomatic MOC for target witmotionctl-wt31n[0m
+[ 64%] [34m[1mAutomatic MOC for target witmotionctl-wt901[0m
+[ 65%] [34m[1mAutomatic MOC for target witmotion-jy901[0m
+[ 67%] [34m[1mAutomatic MOC for target witmotion_ros_node[0m
+[ 67%] Built target witmotionctl-wt901_autogen
+[ 67%] Built target witmotion-jy901_autogen
+[ 67%] Built target witmotionctl-wt31n_autogen
+[35m[1mConsolidate compiler generated dependencies of target witmotionctl-wt901[0m
+[ 67%] Built target witmotion_ros_node_autogen
+[35m[1mConsolidate compiler generated dependencies of target witmotionctl-wt31n[0m
+[35m[1mConsolidate compiler generated dependencies of target witmotion-jy901[0m
+[ 74%] Built target witmotionctl-wt901
+[35m[1mConsolidate compiler generated dependencies of target witmotion_ros_node[0m
+[ 82%] Built target witmotionctl-wt31n
+[ 86%] Built target witmotion-jy901
+[ 88%] [34m[1mAutomatic MOC for target witmotionctl-jy901[0m
+[ 92%] Built target witmotion_ros_node
+[ 92%] Built target witmotionctl-jy901_autogen
+[35m[1mConsolidate compiler generated dependencies of target witmotionctl-jy901[0m
+[100%] Built target witmotionctl-jy901
+-- Install configuration: ""
+-- Up-to-date: /home/nuc11/imu_ws/install/witmotion_ros/share/witmotion_ros/environment/library_path.sh
+-- Up-to-date: /home/nuc11/imu_ws/install/witmotion_ros/share/witmotion_ros/environment/library_path.dsv
+-- Up-to-date: /home/nuc11/imu_ws/install/witmotion_ros/lib/libwitmotion-uart.so
+-- Up-to-date: /home/nuc11/imu_ws/install/witmotion_ros/lib/libwitmotion_ros.a
+-- Up-to-date: /home/nuc11/imu_ws/install/witmotion_ros/lib/witmotion_ros/witmotion_ros_node
+-- Up-to-date: /home/nuc11/imu_ws/install/witmotion_ros/share/witmotion_ros/launch
+-- Up-to-date: /home/nuc11/imu_ws/install/witmotion_ros/share/witmotion_ros/launch/yahboom10x.launch.py
+-- Up-to-date: /home/nuc11/imu_ws/install/witmotion_ros/share/witmotion_ros/launch/wt901_launch.py
+-- Up-to-date: /home/nuc11/imu_ws/install/witmotion_ros/share/witmotion_ros/launch/__pycache__
+-- Up-to-date: /home/nuc11/imu_ws/install/witmotion_ros/share/witmotion_ros/launch/__pycache__/wt31n.cpython-310.pyc
+-- Up-to-date: /home/nuc11/imu_ws/install/witmotion_ros/share/witmotion_ros/launch/wt905_launch.py
+-- Up-to-date: /home/nuc11/imu_ws/install/witmotion_ros/share/witmotion_ros/launch/wt31n_launch.py
+-- Up-to-date: /home/nuc11/imu_ws/install/witmotion_ros/share/witmotion_ros/launch/wt901.launch.py
+-- Up-to-date: /home/nuc11/imu_ws/install/witmotion_ros/share/witmotion_ros/launch/witmotion_launch.py
+-- Up-to-date: /home/nuc11/imu_ws/install/witmotion_ros/share/witmotion_ros/launch/wt31n.launch.py
+-- Up-to-date: /home/nuc11/imu_ws/install/witmotion_ros/share/witmotion_ros/launch/wt61c.launch.py
+-- Up-to-date: /home/nuc11/imu_ws/install/witmotion_ros/share/witmotion_ros/launch/yahboom10x_launch.py
+-- Up-to-date: /home/nuc11/imu_ws/install/witmotion_ros/share/witmotion_ros/launch/wt61c_launch.py
+-- Up-to-date: /home/nuc11/imu_ws/install/witmotion_ros/share/witmotion_ros/launch/witmotion.launch.py
+-- Up-to-date: /home/nuc11/imu_ws/install/witmotion_ros/share/witmotion_ros/launch/wt905.launch.py
+-- Up-to-date: /home/nuc11/imu_ws/install/witmotion_ros/share/witmotion_ros/config
+-- Up-to-date: /home/nuc11/imu_ws/install/witmotion_ros/share/witmotion_ros/config/config.yml
+-- Up-to-date: /home/nuc11/imu_ws/install/witmotion_ros/share/witmotion_ros/config/wt905.yml
+-- Up-to-date: /home/nuc11/imu_ws/install/witmotion_ros/share/witmotion_ros/config/wt61c.yml
+-- Up-to-date: /home/nuc11/imu_ws/install/witmotion_ros/share/witmotion_ros/config/wt901.yml
+-- Up-to-date: /home/nuc11/imu_ws/install/witmotion_ros/share/witmotion_ros/config/yahboom10x.yml
+-- Up-to-date: /home/nuc11/imu_ws/install/witmotion_ros/share/witmotion_ros/config/wt31n.yml
+-- Up-to-date: /home/nuc11/imu_ws/install/witmotion_ros/share/ament_index/resource_index/package_run_dependencies/witmotion_ros
+-- Up-to-date: /home/nuc11/imu_ws/install/witmotion_ros/share/ament_index/resource_index/parent_prefix_path/witmotion_ros
+-- Up-to-date: /home/nuc11/imu_ws/install/witmotion_ros/share/witmotion_ros/environment/ament_prefix_path.sh
+-- Up-to-date: /home/nuc11/imu_ws/install/witmotion_ros/share/witmotion_ros/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/nuc11/imu_ws/install/witmotion_ros/share/witmotion_ros/environment/path.sh
+-- Up-to-date: /home/nuc11/imu_ws/install/witmotion_ros/share/witmotion_ros/environment/path.dsv
+-- Up-to-date: /home/nuc11/imu_ws/install/witmotion_ros/share/witmotion_ros/local_setup.bash
+-- Up-to-date: /home/nuc11/imu_ws/install/witmotion_ros/share/witmotion_ros/local_setup.sh
+-- Up-to-date: /home/nuc11/imu_ws/install/witmotion_ros/share/witmotion_ros/local_setup.zsh
+-- Up-to-date: /home/nuc11/imu_ws/install/witmotion_ros/share/witmotion_ros/local_setup.dsv
+-- Installing: /home/nuc11/imu_ws/install/witmotion_ros/share/witmotion_ros/package.dsv
+-- Up-to-date: /home/nuc11/imu_ws/install/witmotion_ros/share/ament_index/resource_index/packages/witmotion_ros
+-- Up-to-date: /home/nuc11/imu_ws/install/witmotion_ros/share/witmotion_ros/cmake/export_witmotion_rosExport.cmake
+-- Up-to-date: /home/nuc11/imu_ws/install/witmotion_ros/share/witmotion_ros/cmake/export_witmotion_rosExport-noconfig.cmake
+-- Up-to-date: /home/nuc11/imu_ws/install/witmotion_ros/share/witmotion_ros/cmake/export_witmotion-uartExport.cmake
+-- Up-to-date: /home/nuc11/imu_ws/install/witmotion_ros/share/witmotion_ros/cmake/export_witmotion-uartExport-noconfig.cmake
+-- Up-to-date: /home/nuc11/imu_ws/install/witmotion_ros/share/witmotion_ros/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Up-to-date: /home/nuc11/imu_ws/install/witmotion_ros/share/witmotion_ros/cmake/ament_cmake_export_targets-extras.cmake
+-- Up-to-date: /home/nuc11/imu_ws/install/witmotion_ros/share/witmotion_ros/cmake/ament_cmake_export_libraries-extras.cmake
+-- Up-to-date: /home/nuc11/imu_ws/install/witmotion_ros/share/witmotion_ros/cmake/witmotion_rosConfig.cmake
+-- Up-to-date: /home/nuc11/imu_ws/install/witmotion_ros/share/witmotion_ros/cmake/witmotion_rosConfig-version.cmake
+-- Up-to-date: /home/nuc11/imu_ws/install/witmotion_ros/share/witmotion_ros/package.xml

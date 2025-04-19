@@ -1,0 +1,15 @@
+[31mCMake Error at /usr/lib/x86_64-linux-gnu/cmake/Qt5/Qt5Config.cmake:28 (find_package):
+  Could not find a package configuration file provided by "Qt5SerialPort"
+  with any of the following names:
+
+    Qt5SerialPortConfig.cmake
+    qt5serialport-config.cmake
+
+  Add the installation prefix of "Qt5SerialPort" to CMAKE_PREFIX_PATH or set
+  "Qt5SerialPort_DIR" to a directory containing one of the above files.  If
+  "Qt5SerialPort" provides a separate development package or SDK, be sure it
+  has been installed.
+Call Stack (most recent call first):
+  witmotion-uart-qt/CMakeLists.txt:30 (find_package)
+
+[0m

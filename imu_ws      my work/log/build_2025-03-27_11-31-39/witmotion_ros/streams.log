@@ -1,0 +1,102 @@
+[0.008s] Invoking command in '/home/nuc11/imu_ws/build/witmotion_ros': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/nuc11/imu_ws/build/witmotion_ros -- -j16 -l16
+[0.042s] [  1%] [34m[1mAutomatic MOC for target wt31n-calibration[0m
+[0.043s] [  4%] [34m[1mAutomatic MOC for target witmotion-uart[0m
+[0.043s] [  4%] [34m[1mAutomatic MOC for target wt31n-standalone-decoder[0m
+[0.053s] [  4%] Built target wt31n-calibration_autogen
+[0.053s] [  4%] Built target witmotion-uart_autogen
+[0.055s] [  4%] Built target wt31n-standalone-decoder_autogen
+[0.060s] [35m[1mConsolidate compiler generated dependencies of target wt31n-calibration[0m
+[0.061s] [35m[1mConsolidate compiler generated dependencies of target witmotion-uart[0m
+[0.061s] [35m[1mConsolidate compiler generated dependencies of target wt31n-standalone-decoder[0m
+[0.068s] [  8%] Built target wt31n-calibration
+[0.069s] [ 13%] Built target wt31n-standalone-decoder
+[0.070s] [ 25%] Built target witmotion-uart
+[0.083s] [ 28%] [34m[1mAutomatic MOC for target witmotion-wt31n[0m
+[0.083s] [ 28%] [34m[1mAutomatic MOC for target message-enumerator[0m
+[0.083s] [ 29%] [34m[1mAutomatic MOC for target witmotion_ros[0m
+[0.083s] [ 31%] [34m[1mAutomatic MOC for target witmotion-wt901[0m
+[0.094s] [ 31%] Built target witmotion-wt901_autogen
+[0.095s] [ 31%] Built target message-enumerator_autogen
+[0.095s] [ 31%] Built target witmotion-wt31n_autogen
+[0.096s] [ 31%] Built target witmotion_ros_autogen
+[0.101s] [35m[1mConsolidate compiler generated dependencies of target witmotion-wt901[0m
+[0.101s] [35m[1mConsolidate compiler generated dependencies of target witmotion-wt31n[0m
+[0.102s] [35m[1mConsolidate compiler generated dependencies of target message-enumerator[0m
+[0.103s] [35m[1mConsolidate compiler generated dependencies of target witmotion_ros[0m
+[0.111s] [ 38%] Built target witmotion-wt31n
+[0.111s] [ 46%] Built target witmotion-wt901
+[0.113s] [ 53%] Built target message-enumerator
+[0.118s] [ 61%] Built target witmotion_ros
+[0.125s] [ 62%] [34m[1mAutomatic MOC for target witmotionctl-wt31n[0m
+[0.125s] [ 64%] [34m[1mAutomatic MOC for target witmotionctl-wt901[0m
+[0.126s] [ 65%] [34m[1mAutomatic MOC for target witmotion-jy901[0m
+[0.132s] [ 67%] [34m[1mAutomatic MOC for target witmotion_ros_node[0m
+[0.136s] [ 67%] Built target witmotionctl-wt901_autogen
+[0.138s] [ 67%] Built target witmotion-jy901_autogen
+[0.138s] [ 67%] Built target witmotionctl-wt31n_autogen
+[0.143s] [35m[1mConsolidate compiler generated dependencies of target witmotionctl-wt901[0m
+[0.144s] [ 67%] Built target witmotion_ros_node_autogen
+[0.144s] [35m[1mConsolidate compiler generated dependencies of target witmotionctl-wt31n[0m
+[0.145s] [35m[1mConsolidate compiler generated dependencies of target witmotion-jy901[0m
+[0.152s] [ 74%] Built target witmotionctl-wt901
+[0.153s] [35m[1mConsolidate compiler generated dependencies of target witmotion_ros_node[0m
+[0.154s] [ 82%] Built target witmotionctl-wt31n
+[0.155s] [ 86%] Built target witmotion-jy901
+[0.167s] [ 88%] [34m[1mAutomatic MOC for target witmotionctl-jy901[0m
+[0.167s] [ 92%] Built target witmotion_ros_node
+[0.178s] [ 92%] Built target witmotionctl-jy901_autogen
+[0.185s] [35m[1mConsolidate compiler generated dependencies of target witmotionctl-jy901[0m
+[0.195s] [100%] Built target witmotionctl-jy901
+[0.202s] Invoked command in '/home/nuc11/imu_ws/build/witmotion_ros' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/nuc11/imu_ws/build/witmotion_ros -- -j16 -l16
+[0.207s] Invoking command in '/home/nuc11/imu_ws/build/witmotion_ros': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/nuc11/imu_ws/build/witmotion_ros
+[0.212s] -- Install configuration: ""
+[0.212s] -- Up-to-date: /home/nuc11/imu_ws/install/witmotion_ros/share/witmotion_ros/environment/library_path.sh
+[0.212s] -- Up-to-date: /home/nuc11/imu_ws/install/witmotion_ros/share/witmotion_ros/environment/library_path.dsv
+[0.212s] -- Up-to-date: /home/nuc11/imu_ws/install/witmotion_ros/lib/libwitmotion-uart.so
+[0.212s] -- Up-to-date: /home/nuc11/imu_ws/install/witmotion_ros/lib/libwitmotion_ros.a
+[0.212s] -- Up-to-date: /home/nuc11/imu_ws/install/witmotion_ros/lib/witmotion_ros/witmotion_ros_node
+[0.212s] -- Up-to-date: /home/nuc11/imu_ws/install/witmotion_ros/share/witmotion_ros/launch
+[0.212s] -- Up-to-date: /home/nuc11/imu_ws/install/witmotion_ros/share/witmotion_ros/launch/yahboom10x.launch.py
+[0.213s] -- Up-to-date: /home/nuc11/imu_ws/install/witmotion_ros/share/witmotion_ros/launch/wt901_launch.py
+[0.213s] -- Up-to-date: /home/nuc11/imu_ws/install/witmotion_ros/share/witmotion_ros/launch/__pycache__
+[0.213s] -- Up-to-date: /home/nuc11/imu_ws/install/witmotion_ros/share/witmotion_ros/launch/__pycache__/wt31n.cpython-310.pyc
+[0.213s] -- Up-to-date: /home/nuc11/imu_ws/install/witmotion_ros/share/witmotion_ros/launch/wt905_launch.py
+[0.213s] -- Up-to-date: /home/nuc11/imu_ws/install/witmotion_ros/share/witmotion_ros/launch/wt31n_launch.py
+[0.213s] -- Up-to-date: /home/nuc11/imu_ws/install/witmotion_ros/share/witmotion_ros/launch/wt901.launch.py
+[0.213s] -- Up-to-date: /home/nuc11/imu_ws/install/witmotion_ros/share/witmotion_ros/launch/witmotion_launch.py
+[0.213s] -- Up-to-date: /home/nuc11/imu_ws/install/witmotion_ros/share/witmotion_ros/launch/wt31n.launch.py
+[0.213s] -- Up-to-date: /home/nuc11/imu_ws/install/witmotion_ros/share/witmotion_ros/launch/wt61c.launch.py
+[0.213s] -- Up-to-date: /home/nuc11/imu_ws/install/witmotion_ros/share/witmotion_ros/launch/yahboom10x_launch.py
+[0.213s] -- Up-to-date: /home/nuc11/imu_ws/install/witmotion_ros/share/witmotion_ros/launch/wt61c_launch.py
+[0.213s] -- Up-to-date: /home/nuc11/imu_ws/install/witmotion_ros/share/witmotion_ros/launch/witmotion.launch.py
+[0.213s] -- Up-to-date: /home/nuc11/imu_ws/install/witmotion_ros/share/witmotion_ros/launch/wt905.launch.py
+[0.213s] -- Up-to-date: /home/nuc11/imu_ws/install/witmotion_ros/share/witmotion_ros/config
+[0.213s] -- Up-to-date: /home/nuc11/imu_ws/install/witmotion_ros/share/witmotion_ros/config/config.yml
+[0.213s] -- Up-to-date: /home/nuc11/imu_ws/install/witmotion_ros/share/witmotion_ros/config/wt905.yml
+[0.213s] -- Up-to-date: /home/nuc11/imu_ws/install/witmotion_ros/share/witmotion_ros/config/wt61c.yml
+[0.213s] -- Up-to-date: /home/nuc11/imu_ws/install/witmotion_ros/share/witmotion_ros/config/wt901.yml
+[0.213s] -- Up-to-date: /home/nuc11/imu_ws/install/witmotion_ros/share/witmotion_ros/config/yahboom10x.yml
+[0.213s] -- Up-to-date: /home/nuc11/imu_ws/install/witmotion_ros/share/witmotion_ros/config/wt31n.yml
+[0.213s] -- Up-to-date: /home/nuc11/imu_ws/install/witmotion_ros/share/ament_index/resource_index/package_run_dependencies/witmotion_ros
+[0.213s] -- Up-to-date: /home/nuc11/imu_ws/install/witmotion_ros/share/ament_index/resource_index/parent_prefix_path/witmotion_ros
+[0.213s] -- Up-to-date: /home/nuc11/imu_ws/install/witmotion_ros/share/witmotion_ros/environment/ament_prefix_path.sh
+[0.213s] -- Up-to-date: /home/nuc11/imu_ws/install/witmotion_ros/share/witmotion_ros/environment/ament_prefix_path.dsv
+[0.213s] -- Up-to-date: /home/nuc11/imu_ws/install/witmotion_ros/share/witmotion_ros/environment/path.sh
+[0.213s] -- Up-to-date: /home/nuc11/imu_ws/install/witmotion_ros/share/witmotion_ros/environment/path.dsv
+[0.213s] -- Up-to-date: /home/nuc11/imu_ws/install/witmotion_ros/share/witmotion_ros/local_setup.bash
+[0.213s] -- Up-to-date: /home/nuc11/imu_ws/install/witmotion_ros/share/witmotion_ros/local_setup.sh
+[0.213s] -- Up-to-date: /home/nuc11/imu_ws/install/witmotion_ros/share/witmotion_ros/local_setup.zsh
+[0.213s] -- Up-to-date: /home/nuc11/imu_ws/install/witmotion_ros/share/witmotion_ros/local_setup.dsv
+[0.213s] -- Installing: /home/nuc11/imu_ws/install/witmotion_ros/share/witmotion_ros/package.dsv
+[0.213s] -- Up-to-date: /home/nuc11/imu_ws/install/witmotion_ros/share/ament_index/resource_index/packages/witmotion_ros
+[0.213s] -- Up-to-date: /home/nuc11/imu_ws/install/witmotion_ros/share/witmotion_ros/cmake/export_witmotion_rosExport.cmake
+[0.213s] -- Up-to-date: /home/nuc11/imu_ws/install/witmotion_ros/share/witmotion_ros/cmake/export_witmotion_rosExport-noconfig.cmake
+[0.213s] -- Up-to-date: /home/nuc11/imu_ws/install/witmotion_ros/share/witmotion_ros/cmake/export_witmotion-uartExport.cmake
+[0.213s] -- Up-to-date: /home/nuc11/imu_ws/install/witmotion_ros/share/witmotion_ros/cmake/export_witmotion-uartExport-noconfig.cmake
+[0.213s] -- Up-to-date: /home/nuc11/imu_ws/install/witmotion_ros/share/witmotion_ros/cmake/ament_cmake_export_dependencies-extras.cmake
+[0.213s] -- Up-to-date: /home/nuc11/imu_ws/install/witmotion_ros/share/witmotion_ros/cmake/ament_cmake_export_targets-extras.cmake
+[0.213s] -- Up-to-date: /home/nuc11/imu_ws/install/witmotion_ros/share/witmotion_ros/cmake/ament_cmake_export_libraries-extras.cmake
+[0.213s] -- Up-to-date: /home/nuc11/imu_ws/install/witmotion_ros/share/witmotion_ros/cmake/witmotion_rosConfig.cmake
+[0.213s] -- Up-to-date: /home/nuc11/imu_ws/install/witmotion_ros/share/witmotion_ros/cmake/witmotion_rosConfig-version.cmake
+[0.214s] -- Up-to-date: /home/nuc11/imu_ws/install/witmotion_ros/share/witmotion_ros/package.xml
+[0.214s] Invoked command in '/home/nuc11/imu_ws/build/witmotion_ros' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/nuc11/imu_ws/build/witmotion_ros

@@ -1,0 +1,4 @@
+Invoking command in '/home/nuc11/imu_ws/build/witmotion-uart-qt': /usr/bin/cmake /home/nuc11/imu_ws/witmotion-uart-qt -DCMAKE_INSTALL_PREFIX=/home/nuc11/imu_ws/install/witmotion-uart-qt
+Invoked command in '/home/nuc11/imu_ws/build/witmotion-uart-qt' returned '0': /usr/bin/cmake /home/nuc11/imu_ws/witmotion-uart-qt -DCMAKE_INSTALL_PREFIX=/home/nuc11/imu_ws/install/witmotion-uart-qt
+Invoking command in '/home/nuc11/imu_ws/build/witmotion-uart-qt': /usr/bin/cmake --build /home/nuc11/imu_ws/build/witmotion-uart-qt -- -j16 -l16
+Invoked command in '/home/nuc11/imu_ws/build/witmotion-uart-qt' returned '0': /usr/bin/cmake --build /home/nuc11/imu_ws/build/witmotion-uart-qt -- -j16 -l16
