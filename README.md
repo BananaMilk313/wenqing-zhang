@@ -24,14 +24,15 @@ reference:
 
 download package：
 
-cd \~/ros2\_ws/src
-git clone -b ros2 --recursive <https://github.com/ElettraSciComp/witmotion_IMU_ros.git> witmotion\_ros
-colcon build --packages-select witmotion\_ros
-source install/setup.bash
+    cd ~/ros2_ws/src
+    git clone -b ros2 --recursive https://github.com/ElettraSciComp/witmotion_IMU_ros.git witmotion_ros
+    colcon build --packages-select witmotion_ros
+    source install/setup.bash
+
 
 launch：
 
-ros2 run witmotion\_ros witmotion\_ros\_node --ros-args --params-file \~/ros2\_ws/src/witmotion\_ros/config/wt901.yml
+    ros2 run witmotion\_ros witmotion\_ros\_node --ros-args --params-file \~/ros2\_ws/src/witmotion\_ros/config/wt901.yml
 
 WT901c yaml：
 
