@@ -14,7 +14,8 @@ According to the DatasheetWT901C TTL Datasheet you uploaded:
 
 Plug the IMU into the Ubuntu system and identify the port as /dev/ttyUSB0
 
-how to view port：ls /dev/ttyUSB\*
+how to view port：
+    ls /dev/ttyUSB\*
 
 step2：ROS 2 Humble Install Witmotion IMU
 
